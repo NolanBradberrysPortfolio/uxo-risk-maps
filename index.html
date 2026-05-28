@@ -34,19 +34,22 @@
         <input id="searchBox" type="search" placeholder="Province, district, regency">
       </div>
 
+      <div id="coverage" class="coverage">Loading ratings...</div>
+
       <div class="legend" aria-label="Risk legend">
         <div><span class="swatch s5"></span>Very likely</div>
         <div><span class="swatch s4"></span>Likely</div>
         <div><span class="swatch s3"></span>Elevated</div>
         <div><span class="swatch s2"></span>Possible</div>
         <div><span class="swatch s1"></span>Low residual</div>
-        <div><span class="swatch s0"></span>Background-only/no public evidence</div>
+        <div><span class="swatch s0"></span>Screened very low</div>
       </div>
-      <p class="legend-note">Color shows modeled likelihood, not evidence quality or safety. Tooltips and popups show evidence grade, confidence status, and sources.</p>
+      <p class="legend-note">Every mapped area has a rating. Screened very low means no retained public report plus low modeled exposure, not proof of safety.</p>
+      <p class="legend-note">Scope: Philippines, Laos, Cambodia, Thailand, Indonesia/Bali, and Malaysia. Neighboring countries shown by the base map are not modeled.</p>
 
       <section id="details" class="details">
         <h2>Method</h2>
-        <p>Scores combine published mine-action area estimates where available with weaker historical-conflict inference elsewhere. This is not a clearance map.</p>
+        <p>Scores combine mine-action estimates, incident reports, and screened-low exposure ratings. This is not a clearance map.</p>
       </section>
     </aside>
 

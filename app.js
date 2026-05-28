@@ -4,7 +4,7 @@ const COLORS = {
   "elevated": "#ee9b45",
   "possible": "#f1cf63",
   "low residual": "#a7c8a1",
-  "background-only/no public evidence": "#d9dfd6",
+  "screened very low": "#b9b4dc",
 };
 
 const BOUNDS = {
@@ -34,11 +34,11 @@ function styleFeature(feature) {
   const band = feature.properties.risk_band;
   const evidence = feature.properties.evidence || "";
   const lowConfidence = feature.properties.confidence === "low" || feature.properties.confidence === "lower";
-  const fillOpacity = lowConfidence ? 0.48 : evidence.startsWith("D") ? 0.38 : 0.72;
+  const fillOpacity = lowConfidence ? 0.48 : evidence.startsWith("D") ? 0.7 : 0.72;
   return {
     color: lowConfidence ? "#6a736d" : "#33413a",
     dashArray: lowConfidence ? "2 4" : evidence.startsWith("C") || evidence.startsWith("D") ? "4 3" : "",
-    fillColor: COLORS[band] || COLORS["background-only/no public evidence"],
+    fillColor: COLORS[band] || COLORS["screened very low"],
     fillOpacity,
     opacity: 0.72,
     weight: lowConfidence ? 0.9 : 0.7,
@@ -65,6 +65,15 @@ function filteredFeatures() {
         searchableText(p).includes(q);
       return regionOk && searchOk;
     }),
+  };
+}
+
+function visibleRatedCounts() {
+  const visible = filteredFeatures().features;
+  return {
+    total: visible.length,
+    screened: visible.filter((feature) => feature.properties.risk_band === "screened very low").length,
+    unrated: visible.filter((feature) => !feature.properties.risk_band).length,
   };
 }
 
@@ -120,6 +129,7 @@ function renderLayer() {
       map.fitBounds(bounds, { padding: [18, 18] });
     }
   }
+  updateCoverage();
 }
 
 function showDetails(p) {
@@ -130,6 +140,7 @@ function showDetails(p) {
   const statusRows = [
     p.data_as_of ? `<dt>Data as of</dt><dd>${escapeHtml(p.data_as_of)}</dd>` : "",
     p.survey_status ? `<dt>Survey status</dt><dd>${escapeHtml(p.survey_status)}</dd>` : "",
+    p.screening_status ? `<dt>Screening</dt><dd>${escapeHtml(p.screening_status)}</dd>` : "",
     `<dt>Confidence</dt><dd>${escapeHtml(confidenceText(p))}</dd>`,
   ].join("");
 
@@ -140,6 +151,7 @@ function showDetails(p) {
       <dt>Evidence</dt><dd>${escapeHtml(p.evidence)}</dd>
       <dt>Types</dt><dd>${escapeHtml(p.contamination_types.join(", "))}</dd>
       <dt>Notes</dt><dd>${escapeHtml(p.notes)}</dd>
+      ${screeningBasisHtml(p.screening_basis)}
       ${statusRows}
       ${metrics}
       <dt>Sources</dt><dd>${sourceLinkList(p.source_ids)}</dd>
@@ -154,6 +166,7 @@ function popupHtml(p) {
     .join("");
   const status = [
     `<div class="popup-row"><strong>Confidence:</strong> ${escapeHtml(confidenceText(p))}</div>`,
+    p.screening_status ? `<div class="popup-row"><strong>Screening:</strong> ${escapeHtml(p.screening_status)}</div>` : "",
     p.survey_status ? `<div class="popup-row"><strong>Survey status:</strong> ${escapeHtml(p.survey_status)}</div>` : "",
     p.data_as_of ? `<div class="popup-row"><strong>Data as of:</strong> ${escapeHtml(p.data_as_of)}</div>` : "",
   ].join("");
@@ -165,8 +178,28 @@ function popupHtml(p) {
     ${status}
     ${metrics}
     <div class="popup-note">${escapeHtml(p.notes)}</div>
+    ${popupScreeningBasisHtml(p.screening_basis)}
     <div class="popup-row"><strong>Sources:</strong> ${sourceLinkList(p.source_ids)}</div>
   `;
+}
+
+function updateCoverage() {
+  const counts = visibleRatedCounts();
+  document.getElementById("coverage").textContent =
+    `${counts.total}/${counts.total} visible areas rated | ${counts.unrated} unrated | ${counts.screened} screened very low`;
+}
+
+function screeningBasisHtml(basis) {
+  if (!basis) return "";
+  return `
+    <dt>Screening basis</dt>
+    <dd>${escapeHtml(basis.source_categories_checked)}. ${escapeHtml(basis.absence_claim)}</dd>
+  `;
+}
+
+function popupScreeningBasisHtml(basis) {
+  if (!basis) return "";
+  return `<div class="popup-row"><strong>Basis:</strong> ${escapeHtml(basis.source_categories_checked)}. ${escapeHtml(basis.absence_claim)}</div>`;
 }
 
 function sourceLinkList(ids = []) {

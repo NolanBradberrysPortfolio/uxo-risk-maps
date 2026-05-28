@@ -4,7 +4,7 @@
   --text: #1e2423;
   --muted: #66706b;
   --line: #d7dcd4;
-  --almost: #d9dfd6;
+  --screened: #b9b4dc;
   --low: #a7c8a1;
   --possible: #f1cf63;
   --elevated: #ee9b45;
@@ -89,14 +89,24 @@ input {
   border: 1px solid var(--line);
   border-radius: 8px;
   display: grid;
-  gap: 8px;
-  padding: 12px;
+  gap: 6px;
+  padding: 10px 12px;
 }
 
 .legend-note {
   color: var(--muted);
   font-size: 12px;
   margin: -8px 0 0;
+}
+
+.coverage {
+  background: #eef3ec;
+  border: 1px solid var(--line);
+  border-radius: 6px;
+  color: #2d3733;
+  font-size: 12px;
+  font-weight: 700;
+  padding: 8px 10px;
 }
 
 .legend div {
@@ -118,7 +128,7 @@ input {
 .s3 { background: var(--elevated); }
 .s2 { background: var(--possible); }
 .s1 { background: var(--low); }
-.s0 { background: var(--almost); }
+.s0 { background: var(--screened); }
 
 .details {
   border-top: 1px solid var(--line);
@@ -224,12 +234,36 @@ input {
   .panel {
     border-right: 0;
     border-bottom: 1px solid var(--line);
-    max-height: 44vh;
-    padding: 16px;
+    gap: 10px;
+    max-height: 54vh;
+    padding: 14px 16px;
+  }
+
+  .title-block h1 {
+    font-size: 21px;
+    margin-bottom: 6px;
+  }
+
+  .control-group {
+    gap: 5px;
+  }
+
+  select,
+  input {
+    height: 38px;
+  }
+
+  .legend {
+    gap: 4px;
+    padding: 8px 10px;
+  }
+
+  .legend div {
+    gap: 8px;
   }
 
   .map-wrap {
-    min-height: 56vh;
+    min-height: 46vh;
   }
 
   .map-note {

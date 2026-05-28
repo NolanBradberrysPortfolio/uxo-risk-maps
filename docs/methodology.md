@@ -11,7 +11,7 @@ Scores run from 0 to 100:
 - 50-69: elevated, known contamination but lower area or weaker geographic certainty.
 - 30-49: possible, repeated incident or strong historical-conflict inference.
 - 10-29: low residual, plausible but weak public evidence.
-- 0-9: background-only/no public evidence found in the used sources.
+- 0-9: screened very low, no retained public evidence in the used sources and low modeled exposure in the screening rules.
 
 ## Evidence Grades
 
@@ -22,6 +22,8 @@ Scores run from 0 to 100:
 
 Manual C-only entries are kept below the 50-point "elevated" band. Scores of 50 or higher require a quantified public area estimate or stronger repeated-operation evidence. Where a published Cambodia estimate is dominated by suspected hazardous area rather than confirmed hazardous area, the map keeps the evidence grade as A but lowers the confidence field and explains the uncertainty in the popup.
 
+"Screened very low" is a rating, not an unrated blank. It means the area had no retained public UXO/ERW report or mine-action area baseline in this build, and the retained World War II/modern-conflict screening sources did not place it in a mapped focus list. This is high confidence about the public-source screen, not high confidence that no ordnance exists.
+
 ## Country Handling
 
 Cambodia, Laos, and Thailand use current Mine Action Review 2025 tables where possible. Cambodia combines revised 2025 anti-personnel mine estimates with end-2024 cluster munition remnant estimates, and splits cluster munition areas into CHA and SHA when the report provides that split. SHA-heavy Cambodia CMR components are explicitly caveated; provinces are flagged as lower confidence when suspected hazardous area is a substantial part of the combined mapped total. Other Cambodia ERW/UXO and AV mine contamination is noted as a national limitation but is not scored without a province-level layer.
@@ -30,9 +32,9 @@ Laos uses confirmed cluster munition hazardous area through survey at end 2024, 
 
 Thailand uses end-2024 anti-personnel mined area in six Cambodian-border provinces. Scores also note border-demarcation constraints and 2025 incident evidence where Mine Action Review reports it. Thailand's CMR completion status is not used as a Thai province risk layer.
 
-The Philippines uses province-level scoring. BARMM and adjacent Mindanao areas are scored from FSD 2024 activity and Landmine/Cluster Munition Monitor reporting on Marawi, Bangsamoro, Maguindanao, and improvised mines. Other areas are weaker residual or WWII inferences. The Philippines boundary layer is older than current PSGC geography: it retains a combined Maguindanao feature and lacks some separate highly urbanized city features. Those cases are noted in popups rather than treated as precise current administrative boundaries.
+The Philippines uses province-level scoring. BARMM and adjacent Mindanao areas are scored from FSD 2024 activity and Landmine/Cluster Munition Monitor reporting on Marawi, Bangsamoro, Maguindanao, and improvised mines. Other areas are weaker residual or WWII inferences. Provinces outside retained report/campaign focus lists receive a screened-very-low rating rather than looking unrated. The Philippines boundary layer is older than current PSGC geography: it retains a combined Maguindanao feature and lacks some separate highly urbanized city features. Those cases are noted in popups rather than treated as precise current administrative boundaries.
 
-Indonesia and Malaysia do not have comparable public mine-action baselines in the sources used. Scores are therefore much lower and mostly reflect confirmed recent WWII UXO finds, WWII battle/bombardment history, or carefully caveated isolated reports. Bali is treated separately: Badung, Denpasar, and Gianyar receive low-residual scores from isolated reports or WWII airfield history, while the remaining Bali districts are background-only because no district-specific public evidence was found in the used sources.
+Indonesia and Malaysia do not have comparable public mine-action baselines in the sources used. Scores are therefore much lower and mostly reflect confirmed recent WWII UXO finds, WWII battle/bombardment history, or carefully caveated isolated reports. Districts/regencies outside retained incident and World War II campaign focus lists receive screened-very-low ratings with high screening confidence. Bali is treated separately: Badung, Denpasar, and Gianyar receive low-residual scores from isolated reports or WWII airfield history, while the remaining Bali districts are screened very low because no district-specific public evidence was found in the used sources.
 
 ## Limitations
 

@@ -124,6 +124,21 @@
     "url": "https://www.dva.gov.au/media/media-backgrounders/borneo-oboe-campaign",
     "used_for": "Indonesia and Malaysia WWII battle and bombardment context around Tarakan, Balikpapan, North Borneo, and Labuan."
   },
+  "us_army_wwii_asiatic_pacific": {
+    "title": "U.S. Army Center of Military History, World War II Asiatic-Pacific Theater summary",
+    "url": "https://history.army.mil/Research/Reference-Topics/Army-Campaigns/Brief-Summaries/World-War-II/World-War-II-Asiatic-Pacific-Theater/",
+    "used_for": "Broad Philippines WWII campaign-footprint screening and comparison against retained province-level evidence."
+  },
+  "awm_malaya_invasion": {
+    "title": "Australian War Memorial, Invasion of Malaya",
+    "url": "https://www.awm.gov.au/collection/E84717",
+    "used_for": "Malaysia/Thailand WWII troop-movement screening for the Japanese Malaya campaign route."
+  },
+  "brit_dutch_east_indies": {
+    "title": "Encyclopaedia Britannica, Dutch East Indies",
+    "url": "https://www.britannica.com/place/Dutch-East-Indies",
+    "used_for": "Broad Indonesia WWII occupation context for screening areas without retained district-level UXO reports."
+  },
   "brit_morotai": {
     "title": "Encyclopaedia Britannica, Morotai",
     "url": "https://www.britannica.com/place/Morotai-island-Indonesia",
