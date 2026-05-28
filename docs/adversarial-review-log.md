@@ -49,3 +49,15 @@ Cycle status key:
 - `fixed` UI coverage counter: it now computes rated/total instead of total/total.
 - `fixed` UI unknown-band rendering: invalid/missing risk bands now render as `unknown`, count as unrated/invalid, and no longer fall back to screened-low.
 - `fixed` Build validation: generation now fails if a feature has an invalid risk band or references a missing source ID.
+
+### Cycle 2 - Agents Huygens/Erdos/Confucius/Mill
+
+- `fixed` Philippines Albay, Pangasinan, Benguet, Nueva Ecija, Cagayan, and Pampanga: screened-low contradicted by retained public WWII/vintage UXO reports. Raised to `low residual` or `possible` based on incident strength.
+- `fixed` Philippines Davao del Sur: prior score used a Davao City/Lanang Monitor item that is outside the Davao del Sur polygon and did not support WWII-era wording. Davao del Sur downgraded to screened-low with an explicit boundary caveat.
+- `fixed` Malaysia Kinta, Sandakan, Kuala Lumpur, and Kudat: screened-low contradicted by direct public WWII UXO or fatal blast reports. Raised to `possible` or `low residual`.
+- `fixed` Malaysia Kampar, Kubang Pasu, Muallim, and Beaufort: screened-low missed retained AWM battle/campaign evidence. Raised to low residual C-grade inferences.
+- `fixed` Indonesia Jayapura, Sarmi, Teluk Bintuni, Halmahera Utara, Kota Surabaya, Semarang, Deli Serdang, and Simalungun: screened-low contradicted by retained public UXO reports or WWII airfield/battle evidence. Raised to `low residual` or `possible`.
+- `fixed` Bali Karang Asem and Tabanan: screened-low contradicted by retained active/suspected grenade reports. Raised to `low residual` with caveats.
+- `fixed` Thailand Sa Kaeo, Surin, and Si Sa Ket: added 2026 mine-clearance and casualty sources/notes without changing already-likely bands except where current evidence supports the existing floor.
+- `fixed` Methodology: Bali paragraph updated after Denpasar reassignment and Buleleng/Jembrana/Karang Asem/Tabanan additions.
+- `fixed` Mobile UI: screened-low caveat moved directly under coverage so the dominant class caveat is visible before the map on phone viewports.
