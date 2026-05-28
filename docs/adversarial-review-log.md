@@ -61,3 +61,18 @@ Cycle status key:
 - `fixed` Thailand Sa Kaeo, Surin, and Si Sa Ket: added 2026 mine-clearance and casualty sources/notes without changing already-likely bands except where current evidence supports the existing floor.
 - `fixed` Methodology: Bali paragraph updated after Denpasar reassignment and Buleleng/Jembrana/Karang Asem/Tabanan additions.
 - `fixed` Mobile UI: screened-low caveat moved directly under coverage so the dominant class caveat is visible before the map on phone viewports.
+
+### Cycle 3 - Agents Plato/Hegel/Lorentz/Herschel
+
+- `fixed` Indonesia Kota Kendari, Konawe Selatan, Manokwari, Kota Manado, Kota Kupang, Seram Bagian Barat, Seram Bagian Timur, Bantul, Bone, Kota Banda Aceh, Belitung, and Kota Balikpapan: screened-low or inference-only records contradicted by retained public EOD/UXO reports or misplaced airfield evidence. Raised where warranted and sourced.
+- `fixed` Indonesia Jayapura/Kota Jayapura integrity: removed duplicate `Jayapura` rule key and downgraded/reworded Kota Jayapura because the retained ANTARA source is underwater WWII heritage evidence, not direct UXO/ERW evidence.
+- `fixed` Philippines Iloilo, Bohol, Negros Occidental, Antique, Batangas, Bulacan, La Union, NCR Second/Third/Fourth Districts, and Palawan: screened-low missed direct public vintage-bomb reports or Palawan campaign/airfield exposure. Raised to `low residual` or `possible` as evidence strength allowed.
+- `fixed` Malaysia Tawau, Perak Tengah, Jempol, Tampin, Segamat, Batu Pahat, and Kuching: added direct UXO/EOD reports. Tampin, Segamat, Batu Pahat, and Jempol moved to `possible`; Kuching remains screened-low because the retained item is police-described training UXO, not area contamination.
+- `fixed` Cambodia border-province wording: 2026 CMAC border CMR reporting is now labeled as incomplete survey evidence linked to past border conflicts, not a validated 2025-conflict area metric.
+- `fixed` Cambodia Kep/baseline-only typing: baseline-only provinces now show ODC/CMAA baseline mine/ERW records as unspecified/not MAR area-scored, with baseline survey-date context.
+- `fixed` Laos AP mine tags: AP references now say "mines destroyed during 2024 CMR operations, not an AP mined-area estimate" and cite Mine Action Review mines caveats where used.
+- `fixed` Thailand Buri Ram and Trat: added 2025 current clearance/find notes and sources. Buri Ram remains `elevated`; Trat remains `likely` with AP/UXO find details.
+- `fixed` Thailand disputed-claim caveat: 2025 alleged new mine-emplacement wording now notes Cambodia's denial and MAR's unverified-at-publication caveat, while preserving later province-specific incident notes.
+- `fixed` UI stale details bug: changing map focus or search now clears the prior selected-area details and popup so the side panel cannot show a hidden area's sources.
+- `fixed` Source traceability: generated features now cite exact geoBoundaries API layer IDs by country/admin level rather than only the geoBoundaries homepage.
+- `fixed` Build integrity: generator now parses its own rule dictionaries and fails on duplicate literal keys before silent Python overwrites can reach the published data.

@@ -33,6 +33,11 @@ let sources = null;
 let geoLayer = null;
 let selectedLayer = null;
 
+const INITIAL_DETAILS_HTML = `
+  <h2>Method</h2>
+  <p>Scores combine mine-action estimates, incident reports, and screened-low exposure ratings. This is not a clearance map.</p>
+`;
+
 const map = L.map("map", { zoomControl: false }).setView([9, 111], 5);
 L.control.zoom({ position: "bottomright" }).addTo(map);
 L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
@@ -142,6 +147,16 @@ function renderLayer() {
     }
   }
   updateCoverage();
+}
+
+function resetDetails() {
+  document.getElementById("details").innerHTML = INITIAL_DETAILS_HTML;
+  map.closePopup();
+}
+
+function renderFromControls() {
+  resetDetails();
+  renderLayer();
 }
 
 function showDetails(p) {
@@ -261,8 +276,8 @@ async function init() {
   renderLayer();
 }
 
-document.getElementById("regionFilter").addEventListener("change", renderLayer);
-document.getElementById("searchBox").addEventListener("input", renderLayer);
+document.getElementById("regionFilter").addEventListener("change", renderFromControls);
+document.getElementById("searchBox").addEventListener("input", renderFromControls);
 
 init().catch((error) => {
   document.getElementById("details").innerHTML = `<h2>Load Error</h2><p>${escapeHtml(error.message)}</p>`;

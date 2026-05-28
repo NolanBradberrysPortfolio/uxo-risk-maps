@@ -439,6 +439,236 @@
     "url": "https://www.nationthailand.com/news/general/40062414",
     "used_for": "Thailand Si Sa Ket February 2026 landmine casualty evidence."
   },
+  "nation_buriram_mines_2025": {
+    "title": "The Nation Thailand, landmine clearance sites in Surin, Si Sa Ket, and Buri Ram",
+    "url": "https://www.nationthailand.com/news/general/40054169",
+    "used_for": "Thailand Buri Ram 2025 current clearance context; treated as multi-province clearance reporting, not a Buri Ram area estimate."
+  },
+  "nation_trat_mines_uxo_2025": {
+    "title": "The Nation Thailand, mines and UXO found near Trat border",
+    "url": "https://www.nationthailand.com/news/general/40057487",
+    "used_for": "Thailand Trat 2025 AP mine, grenade, RPG, and UXO clearance evidence."
+  },
+  "brigada_iloilo_grenade_bomb_2022": {
+    "title": "Brigada News, grenade and vintage bomb recovered in Iloilo",
+    "url": "https://www.brigadanews.ph/sangka-granada-ag-vintage-bomb-narekober-sa-iloilo/",
+    "used_for": "Philippines Iloilo isolated grenade and vintage bomb recovery evidence."
+  },
+  "bohol_tagbilaran_bomb_2012": {
+    "title": "Bohol News Daily, WWII vintage bomb found and detonated in Tagbilaran",
+    "url": "https://boholnewsdaily.com/2012/11/page/3",
+    "used_for": "Philippines Bohol isolated WWII vintage bomb construction-site evidence."
+  },
+  "rmn_negros_occidental_bombs_2019": {
+    "title": "RMN, nine vintage bombs detonated in La Carlota",
+    "url": "https://rmn.ph/9-ka-mga-vintage-bomb-ginpalupok-sa-la-carlota/",
+    "used_for": "Philippines Negros Occidental grouped vintage bomb evidence."
+  },
+  "pna_antique_bomb_2021": {
+    "title": "Philippine News Agency, vintage bomb explodes in Antique town",
+    "url": "https://www.pna.gov.ph/articles/1143173",
+    "used_for": "Philippines Antique underground vintage bomb explosion and shell-fragment evidence."
+  },
+  "mb_batangas_uxo_2020": {
+    "title": "Manila Bulletin, high explosive unexploded ordnance found in Batangas",
+    "url": "https://mb.com.ph/2020/07/19/high-explosive-unexploded-ordnance-found-in-batangas",
+    "used_for": "Philippines Batangas Port isolated 155mm HE UXO evidence with origin caveat."
+  },
+  "maritime_batangas_shell_2020": {
+    "title": "The Maritime Executive, ferry dredges up artillery shell with its anchor in Batangas",
+    "url": "https://maritime-executive.com/article/photos-ferry-dredges-up-artillery-shell-with-its-anchor",
+    "used_for": "Philippines Batangas Port isolated 155mm HE artillery-shell evidence."
+  },
+  "philstar_bulacan_bomb_2005": {
+    "title": "Philstar, vintage bomb unearthed in Bulacan",
+    "url": "https://www.philstar.com/probinsiya/306697/vintage-bomb-nahukay",
+    "used_for": "Philippines Bulacan isolated Meycauayan vintage bomb evidence."
+  },
+  "bombo_la_union_bomb_2020": {
+    "title": "Bombo Radyo, vintage bomb recovered in La Union",
+    "url": "https://www.bomboradyo.com/vintage-bomb-na-recover-sa-la-union",
+    "used_for": "Philippines La Union isolated 130mm vintage projectile evidence."
+  },
+  "gma_ncr_marikina_bomb_2020": {
+    "title": "GMA News, NCRPO detonates seized explosives and vintage bombs",
+    "url": "https://www.gmanetwork.com/news/topstories/nation/761195/ncrpo-detonates-seized-explosives-vintage-bombs-at-tarlac-range/story/",
+    "used_for": "Philippines NCR Second District Marikina 2,000-pound vintage bomb evidence."
+  },
+  "gma_qc_up_diliman_bomb_2026": {
+    "title": "GMA News, vintage bomb found in UP Diliman campus",
+    "url": "https://www.gmanetwork.com/news/topstories/metro/975193/vintage-bomb-found-in-up-diliman-campus/story/",
+    "used_for": "Philippines NCR Second District Quezon City 2026 vintage bomb evidence."
+  },
+  "coconuts_malabon_bomb_2014": {
+    "title": "Coconuts Manila / Philstar, vintage bomb found near Maysilo Bridge, Malabon",
+    "url": "https://coconuts.co/manila/news/vintage-bomb-found-buried-near-maysilo-bridge-malabon/",
+    "used_for": "Philippines NCR Third District Malabon isolated vintage bomb evidence."
+  },
+  "opinyon_pasay_naia_bomb_2024": {
+    "title": "OpinYon, vintage bomb found near NAIA Terminal 2",
+    "url": "https://opinyon.net/national/vintage-bomb-found-near-naia-2",
+    "used_for": "Philippines NCR Fourth District Pasay isolated WWII-era vintage bomb evidence."
+  },
+  "philstar_pasay_naia_bomb_2024": {
+    "title": "Philstar, vintage bomb found near NAIA",
+    "url": "https://www.philstar.com/nation/2024/11/29/2403728/vintage-bomb-found-near-naia",
+    "used_for": "Philippines NCR Fourth District Pasay isolated WWII-era vintage bomb evidence."
+  },
+  "us_army_palawan_operation": {
+    "title": "U.S. Army in World War II, Palawan operation",
+    "url": "https://www.ibiblio.org/hyperwar/USA/USA-P-Triumph/USA-P-Triumph-30.html",
+    "used_for": "Philippines Palawan 1945 operation, Puerto Princesa objective, airfield, and bombardment context."
+  },
+  "kompas_kendari_mortar_2020": {
+    "title": "Kompas TV, active wartime mortar found in Kendari",
+    "url": "https://www.kompas.tv/article/125536/ditemukan-bom-aktif-peninggalan-perang-di-kendari-ketahuan-saat-hendak-dijual-dikira-besi",
+    "used_for": "Indonesia Kota Kendari active mortar recovery evidence."
+  },
+  "inilah_kendari_bomb_2023": {
+    "title": "Inilah, Polda Sultra destroys WWII aircraft bomb in Kendari",
+    "url": "https://www.inilah.com/polda-sultra-musnahkan-bom-peninggalan-perang-dunia-ii",
+    "used_for": "Indonesia Kota Kendari 2023 WWII aircraft bomb disposal evidence."
+  },
+  "pacific_wrecks_kendari": {
+    "title": "Pacific Wrecks, Kendari II Airfield",
+    "url": "https://pacificwrecks.com/airfield/indonesia/kendari/index.html",
+    "used_for": "Indonesia Konawe Selatan/Kendari WWII airfield and bombardment context."
+  },
+  "tribrata_sultra_konsel_torpedo_2016": {
+    "title": "Polda Sultra, wartime torpedo bomb found in Konawe Selatan",
+    "url": "https://tribratanews.sultra.polri.go.id/berita/bom-torpedo-peninggalan-perang/",
+    "used_for": "Indonesia Konawe Selatan isolated wartime torpedo-bomb recovery evidence."
+  },
+  "kumparan_manokwari_bombs_2019": {
+    "title": "Kumparan/BalleoNEWS, 226 active WWII bombs found in Manokwari",
+    "url": "https://kumparan.com/balleonews/warga-di-manokwari-temukan-226-bom-aktif-peninggalan-perang-dunia-ii-1sHDNjvO3c5",
+    "used_for": "Indonesia Manokwari grouped active WWII bomb evidence."
+  },
+  "pacific_wrecks_manokwari": {
+    "title": "Pacific Wrecks, Manokwari Airfield",
+    "url": "https://pacificwrecks.com/airfield/indonesia/manokwari/index.html",
+    "used_for": "Indonesia Manokwari WWII airfield and bombardment context."
+  },
+  "tribrata_manado_mortar_2025": {
+    "title": "Tribrata Sulut, Brimob secures mortar in Paniki Bawah, Manado",
+    "url": "https://tribratanews.sulut.polri.go.id/tim-jibom-brimob-polda-sulut-bersama-polsek-mapanget-amankan-penemuan-mortir-di-paniki-bawah/",
+    "used_for": "Indonesia Kota Manado 2025 mortar disposal evidence."
+  },
+  "pacific_wrecks_mapanget": {
+    "title": "Pacific Wrecks, Mapanget / Manado I Airfield",
+    "url": "https://pacificwrecks.com/airfield/indonesia/mapanget/index.html",
+    "used_for": "Indonesia Kota Manado WWII airfield and bombardment context."
+  },
+  "suara_kupang_mortar_2017": {
+    "title": "Suara.com, suspected active WWII mortar found in Kupang",
+    "url": "https://www.suara.com/news/2017/08/28/050000/warga-temukan-mortir-berkarat-saat-membuat-pondasi-rumah",
+    "used_for": "Indonesia Kota Kupang isolated suspected active WWII mortar evidence."
+  },
+  "pacific_wrecks_penfui": {
+    "title": "Pacific Wrecks, Penfui / Poeloeti Airfield",
+    "url": "https://pacificwrecks.com/airfield/indonesia/poeloeti/index.html",
+    "used_for": "Indonesia Kota Kupang WWII airfield and attack context."
+  },
+  "polri_sbb_bombs_2022": {
+    "title": "Tribrata Polri, Brimob Maluku destroys 21 WWII bombs in Piru",
+    "url": "https://tribratanews.polri.go.id/blog/keamanan-6/tim-jibom-brimob-polda-maluku-musnahkan-21-bom-peninggalan-perang-dunia-ii-18065",
+    "used_for": "Indonesia Seram Bagian Barat grouped active WWII bomb disposal evidence."
+  },
+  "malukuterkini_sbt_bula_bomb_2020": {
+    "title": "MalukuTerkini, Brimob Maluku to dispose suspected bomb found in Bula",
+    "url": "https://www.malukuterkini.com/2020/07/15/brimob-maluku-segera-disposal-bom-yang-ditemukan-di-bula/",
+    "used_for": "Indonesia Seram Bagian Timur isolated suspected WWII aircraft-bomb evidence."
+  },
+  "polri_bantul_grenade_2024": {
+    "title": "Tribrata Polri, Satbrimob DIY destroys active grenade found in Pajangan",
+    "url": "https://tribratanews.polri.go.id/blog/keamanan-6/satbrimob-polda-diy-berhasil-musnahkan-granat-aktif-temuan-warga-pajangan-71402",
+    "used_for": "Indonesia Bantul isolated active WWII grenade evidence."
+  },
+  "jpnn_bone_bomb_2016": {
+    "title": "JPNN / ANTARA photo, Brimob secures aircraft bomb in Bone",
+    "url": "https://www.jpnn.com/news/brimob-mensterilkan-lokasi-penemuan-bom-peninggalan-perang",
+    "used_for": "Indonesia Bone isolated aircraft-bomb recovery evidence."
+  },
+  "metrotv_banda_aceh_grenade": {
+    "title": "MetroTV, Banda Aceh resident finds WWII grenade",
+    "url": "https://www.metrotvnews.com/read/k8oCVXxV-warga-banda-aceh-temukan-granat-peninggalan-perang-dunia",
+    "used_for": "Indonesia Kota Banda Aceh isolated WWII grenade evidence."
+  },
+  "antara_belitung_mortars_2023": {
+    "title": "ANTARA Bangka Belitung, Brimob to detonate 20 WWII mortars in Belitung",
+    "url": "https://babel.antaranews.com/amp/berita/345228/brimob-polda-babel-akan-ledakkan-temuan-20-mortir-sisa-pd-ii-di-belitung",
+    "used_for": "Indonesia Belitung grouped suspected-active WWII mortar evidence."
+  },
+  "antarafoto_balikpapan_mortar_2025": {
+    "title": "ANTARA Foto, mortar in Balikpapan",
+    "url": "https://www.antarafoto.com/view/2525897/mortar-in-balikpapan",
+    "used_for": "Indonesia Kota Balikpapan 2025 active suspected-WWII mortar evidence."
+  },
+  "malaymail_tawau_bomb_2014": {
+    "title": "Malay Mail, WWII bomb found and detonated in Tawau",
+    "url": "https://www.malaymail.com/news/malaysia/2014/06/24/world-war-ii-bomb-found-detonated-in-tawau/693355",
+    "used_for": "Malaysia Tawau isolated WWII-era bomb disposal evidence."
+  },
+  "malaymail_perak_tengah_shell_2025": {
+    "title": "Malay Mail, old 155mm artillery shell safely destroyed in Seri Iskandar",
+    "url": "https://www.malaymail.com/amp/news/malaysia/2025/05/20/old-155mm-artillery-shell-found-safely-destroyed-in-seri-iskandar/177371",
+    "used_for": "Malaysia Perak Tengah isolated artillery-shell disposal evidence."
+  },
+  "utusan_jempol_uxo_2024": {
+    "title": "Utusan Malaysia, Jempol records highest old UXO count in Negeri Sembilan",
+    "url": "https://www.utusan.com.my/berita/2024/09/63-butir-bom-lama-ditemukan/",
+    "used_for": "Malaysia Jempol aggregate old UXO count evidence."
+  },
+  "sinar_tampin_bomb_2024": {
+    "title": "Sinar Daily, old 81mm UXO mortar found in Tampin oil-palm plantation",
+    "url": "https://www.sinardaily.my/article/221231/focus/national/old-bomb-found-at-oil-palm-plantation",
+    "used_for": "Malaysia Tampin 2024 isolated UXO mortar evidence."
+  },
+  "malaymail_segamat_uxo_2025": {
+    "title": "Malay Mail, WWII ordnance discovered at Segamat flood mitigation project",
+    "url": "https://www.malaymail.com/news/malaysia/2025/11/18/wwii-explosives-ancient-graves-discovered-at-johor-flood-mitigation-project-sites/198843",
+    "used_for": "Malaysia Segamat/Labis 2025 WWII ordnance clearance evidence."
+  },
+  "sinar_batu_pahat_bomb_2023": {
+    "title": "Sinar Daily, World War II bomb found in Yong Peng plantation",
+    "url": "https://www.sinardaily.my/article/188216/focus/national/world-war-ii-bomb-found-in-yong-peng-plantation",
+    "used_for": "Malaysia Batu Pahat/Yong Peng isolated WWII aerial bomb evidence."
+  },
+  "utusanborneo_kuching_mortar_2018": {
+    "title": "Utusan Borneo, mortar UXO found in Kampung Sungai Bedil Besar",
+    "url": "https://www.utusanborneo.com.my/2018/04/26/bom-mortar-ditemui-di-kampung-sungai-bedil-besar",
+    "used_for": "Malaysia Kuching mortar-practice UXO evidence; treated as training ordnance, not area contamination."
+  },
+  "geoboundaries_khm_adm1": {
+    "title": "geoBoundaries API, Cambodia ADM1 open boundaries",
+    "url": "https://www.geoboundaries.org/api/current/gbOpen/KHM/ADM1/",
+    "used_for": "Cambodia administrative geometry layer and boundary vintage traceability."
+  },
+  "geoboundaries_lao_adm1": {
+    "title": "geoBoundaries API, Laos ADM1 open boundaries",
+    "url": "https://www.geoboundaries.org/api/current/gbOpen/LAO/ADM1/",
+    "used_for": "Laos administrative geometry layer and boundary vintage traceability."
+  },
+  "geoboundaries_tha_adm1": {
+    "title": "geoBoundaries API, Thailand ADM1 open boundaries",
+    "url": "https://www.geoboundaries.org/api/current/gbOpen/THA/ADM1/",
+    "used_for": "Thailand administrative geometry layer and boundary vintage traceability."
+  },
+  "geoboundaries_phl_adm2": {
+    "title": "geoBoundaries API, Philippines ADM2 open boundaries",
+    "url": "https://www.geoboundaries.org/api/current/gbOpen/PHL/ADM2/",
+    "used_for": "Philippines administrative geometry layer and boundary vintage traceability."
+  },
+  "geoboundaries_idn_adm2": {
+    "title": "geoBoundaries API, Indonesia ADM2 open boundaries",
+    "url": "https://www.geoboundaries.org/api/current/gbOpen/IDN/ADM2/",
+    "used_for": "Indonesia administrative geometry layer and boundary vintage traceability."
+  },
+  "geoboundaries_mys_adm2": {
+    "title": "geoBoundaries API, Malaysia ADM2 open boundaries",
+    "url": "https://www.geoboundaries.org/api/current/gbOpen/MYS/ADM2/",
+    "used_for": "Malaysia administrative geometry layer and boundary vintage traceability."
+  },
   "methodology": {
     "title": "Local methodology note",
     "url": "docs/methodology.md",
