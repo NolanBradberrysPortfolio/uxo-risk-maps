@@ -76,3 +76,20 @@ Cycle status key:
 - `fixed` UI stale details bug: changing map focus or search now clears the prior selected-area details and popup so the side panel cannot show a hidden area's sources.
 - `fixed` Source traceability: generated features now cite exact geoBoundaries API layer IDs by country/admin level rather than only the geoBoundaries homepage.
 - `fixed` Build integrity: generator now parses its own rule dictionaries and fails on duplicate literal keys before silent Python overwrites can reach the published data.
+
+### Cycle 4 - Agents Ampere/Heisenberg/Sagan/Chandrasekhar
+
+- `fixed` Philippines Ifugao, Mountain Province, and Leyte: screened-low or low residual ratings missed grouped/repeated vintage bomb reports. Raised Ifugao, Mountain Province, and Leyte to `possible` with direct sources.
+- `fixed` Philippines Compostela Valley: boundary layer retained the stale pre-2019 name. Display now reads `Davao de Oro (formerly Compostela Valley)` with PSGC caveat while preserving the original source shape name.
+- `fixed` Indonesia Kota Bekasi, Kota Yogyakarta, Sleman, Timor Tengah Utara, Pinrang, Bandung, Kota Tanjung Pinang, Kota Banjarmasin, and Kota Tangerang Selatan: screened-low missed direct 2025 grenade/mortar/UXO reports. Raised to `low residual` or `possible` with source caveats.
+- `fixed` Indonesia Keerom: possible score relied on aircraft-wreckage heritage evidence, not UXO/EOD evidence. Downgraded to `low residual` heritage-context wording.
+- `fixed` Bali Tabanan: replaced mutable BaliPost tag-page source with the exact article URL.
+- `fixed` Malaysia Lahad Datu source: replaced fragile Bernama link with a working Malay Mail/Bernama republication URL.
+- `fixed` Malaysia Kota Kinabalu, Sarikei, Beaufort, Labuan, Miri, and Jasin: added direct public WWII bomb/UXO reports; raised Kota Kinabalu and Sarikei to `low residual`, and Beaufort, Labuan, Miri, and Jasin to `possible` or stronger notes.
+- `fixed` Malaysia default screened-low sources: removed `awm_malaya_invasion` from default Malaysia screened-low features and kept it only on route-supported rules.
+- `fixed` Thailand Bangkok: screened-low missed the 2014 buried WWII bomb fatal explosion. Raised Bangkok to `possible` as non-AP UXO evidence.
+- `fixed` Thailand Buri Ram, Si Sa Ket, Ubon Ratchathani, and Surin: added a caveated RTA-attributed 2025 unexploded-bomb/shelling warning source.
+- `fixed` Laos Khammouane: added November 2025 BLU-26 accident evidence and updated `data_as_of`.
+- `fixed` Cambodia Oddar Meanchey, Siem Reap, and Kratie: added 2025 anti-tank mine deminer fatalities, 2025 RPG child fatalities, and Kratie school ERW cache evidence.
+- `fixed` Cambodia baseline date ranges: impossible ODC/CMAA survey-date outliers, including an Oddar Meanchey 1913 row, are excluded from displayed min/max dates and counted in the baseline summary.
+- `fixed` Boundary traceability: every generated feature now carries `source_shape_name`, and generation fails if it is missing.

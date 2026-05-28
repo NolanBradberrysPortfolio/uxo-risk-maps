@@ -124,9 +124,29 @@
     "url": "https://punto.com.ph/vintage-bomb-natagpuan-sa-construction-site/",
     "used_for": "Philippines Pampanga confirmed 76mm WWII tank projectile construction-site evidence."
   },
+  "guru_ifugao_mayoyao_bombs_2023": {
+    "title": "Guru Press Cordillera, eight vintage bombs found in Mayoyao, Ifugao",
+    "url": "https://www.gurupress-cordillera.com/post/8-vintage-bombs-found-in-construction-site-in-mayoyao-ifugao",
+    "used_for": "Philippines Ifugao grouped 81mm vintage bomb evidence and Lamut recall."
+  },
+  "psbalita_bauko_bomb_2022": {
+    "title": "PS Balita, vintage bomb recovered in Bauko, Mountain Province",
+    "url": "https://psbalita.com/1-vintage-bomb-narekober-sa-bauko-mt-province/",
+    "used_for": "Philippines Mountain Province 105mm high-explosive projectile evidence."
+  },
+  "guru_bontoc_bomb_2021": {
+    "title": "Guru Press Cordillera, vintage artillery bomb explodes in Bontoc",
+    "url": "https://www.gurupress-cordillera.com/post/vintage-artillery-bomb-exploded-in-chico-river-samoki-bontoc",
+    "used_for": "Philippines Mountain Province Bontoc vintage artillery-bomb explosion evidence."
+  },
+  "sunstar_tacloban_bomb_ammo_2020": {
+    "title": "SunStar Tacloban, vintage bomb and ammunition found in Tacloban",
+    "url": "https://www.sunstar.com.ph/tacloban/local-news/vintage-bomb-ammo-found-in-tacloban",
+    "used_for": "Philippines Leyte repeated vintage bomb and ammunition evidence in Tacloban."
+  },
   "bern_mys_lahad_datu_2025": {
-    "title": "Bernama, WWII-era bomb found in Lahad Datu safely neutralised",
-    "url": "https://www.bernama.com/en/region/news.php/news.php?id=2460956",
+    "title": "Malay Mail, Sabah bomb squad detonates WWII-era explosive in Lahad Datu",
+    "url": "https://www.malaymail.com/news/malaysia/2025/08/27/sabah-bomb-squad-detonates-wwii-era-explosive-found-by-fisherman-in-lahad-datu/189033",
     "used_for": "Malaysia Lahad Datu confirmed 2025 WWII UXO find and disposal evidence."
   },
   "bern_mys_semporna_2025": {
@@ -163,6 +183,11 @@
     "title": "The Star, WWII-era bomb weighing over 200kg found near Jasin",
     "url": "https://www.thestar.com.my/news/nation/2025/07/14/wwii-era-ordnance-weighing-over-200kg-found-near-jasin",
     "used_for": "Malaysia Jasin confirmed 2025 WWII UXO land-clearing evidence."
+  },
+  "vibes_jasin_bomb_2026": {
+    "title": "The Vibes, World War II bomb found in plantation and safely destroyed in Jasin",
+    "url": "https://www.thevibes.com/articles/news/118583/world-war-ii-bomb-found-in-plantation-safely-destroyed-in-jasin",
+    "used_for": "Malaysia Jasin 2026 active 500-pound aerial bomb discovery and controlled disposal evidence."
   },
   "borneopost_kota_belud_bomb_2023": {
     "title": "Borneo Post, bomb destroyed in Kota Belud",
@@ -219,6 +244,31 @@
     "url": "https://www.awm.gov.au/collection/E84400",
     "used_for": "Malaysia Beaufort WWII North Borneo battle evidence."
   },
+  "sinar_beaufort_bomb_2023": {
+    "title": "Sinar Daily, man finds World War II bomb in Beaufort",
+    "url": "https://www.sinardaily.my/article/187468/focus/national/man-finds-world-war-ii-bomb-60-metres-from-his-home",
+    "used_for": "Malaysia Beaufort direct WWII bomb find evidence."
+  },
+  "malaymail_kk_gaya_bomb_2019": {
+    "title": "Malay Mail, World War II bomb found in Pulau Gaya",
+    "url": "https://www.malaymail.com/news/malaysia/2019/04/14/world-war-ii-bomb-found-in-pulau-gaya/1743210",
+    "used_for": "Malaysia Kota Kinabalu/Pulau Gaya confirmed WWII bomb disposal evidence."
+  },
+  "malaymail_sarikei_bomb_2018": {
+    "title": "Malay Mail, active WWII-era bomb found in Sarikei",
+    "url": "https://www.malaymail.com/news/malaysia/2018/12/18/police-world-war-ii-bomb-found-in-sarawak/1704269",
+    "used_for": "Malaysia Sarikei Ulu Kedup active suspected WWII bomb evidence."
+  },
+  "astro_labuan_bomb_2021": {
+    "title": "Astro Awani, WWII bomb found in Labuan safely detonated",
+    "url": "https://international.astroawani.com/malaysia-news/wwii-bomb-found-labuan-safely-detonated-280346",
+    "used_for": "Malaysia Labuan confirmed WWII UXO and controlled disposal evidence."
+  },
+  "dayakdaily_miri_bomb_2019": {
+    "title": "DayakDaily, unexploded WWII bomb found at construction site in Miri",
+    "url": "https://dayakdaily.com/unexploded-world-war-ii-bomb-found-at-construction-site-in-miri/",
+    "used_for": "Malaysia Miri repeated WWII bomb discovery and defusal evidence."
+  },
   "antara_indonesia_2025": {
     "title": "ANTARA News, WWII grenades found in East Flores, NTT",
     "url": "https://en.antaranews.com/news/350529/wwii-grenades-found-by-eruption-survivors-in-indonesias-ntt",
@@ -243,6 +293,51 @@
     "title": "ANTARA News, WWII plane wreckage found in Keerom, Papua",
     "url": "https://en.antaranews.com/amp/news/314259/ww-ii-plane-wreckage-found-in-papuas-intipapo-forest",
     "used_for": "Indonesia Keerom WWII wreckage evidence."
+  },
+  "detik_kota_bekasi_grenade_2025": {
+    "title": "detikNews, grenade found by resident in Jatisampurna, Kota Bekasi",
+    "url": "https://news.detik.com/berita/d-7749567/begini-penampakan-granat-ditemukan-warga-saat-cari-burung-di-bekasi",
+    "used_for": "Indonesia Kota Bekasi isolated active grenade discovery and disposal evidence."
+  },
+  "antara_yogyakarta_mortar_2025": {
+    "title": "ANTARA, suspected WWII mortar found in Jetis, Yogyakarta",
+    "url": "https://m.antaranews.com/amp/berita/5217753/warga-jetis-yogyakarta-temukan-mortir-diduga-sisa-perang-dunia-ii",
+    "used_for": "Indonesia Kota Yogyakarta isolated suspected active WWII mortar evidence."
+  },
+  "antara_sleman_mortar_2025": {
+    "title": "ANTARA, Sleman recovers after disposal of 350kg mortar find",
+    "url": "https://www.antaranews.com/berita/5035661/sleman-lakukan-pemulihan-dampak-disposal-temuan-mortir-350-kg",
+    "used_for": "Indonesia Sleman 350kg mortar/aerial-bomb disposal evidence."
+  },
+  "detik_ttu_mortar_2025": {
+    "title": "detikBali, police discuss active mortar found near former fort in TTU",
+    "url": "https://www.detik.com/bali/nusra/d-8239453/polisi-sebut-lokasi-penemuan-mortir-di-ttu-dekat-bekas-benteng-penjajahan",
+    "used_for": "Indonesia Timor Tengah Utara active mortar and ammunition evidence."
+  },
+  "detik_pinrang_mortars_2025": {
+    "title": "detikSulsel, two active suspected Japanese-era mortars found in Pinrang",
+    "url": "https://www.detik.com/sulsel/berita/d-7878625/warga-pinrang-temukan-2-mortir-diduga-peninggalan-jepang-jibom-musnahkan",
+    "used_for": "Indonesia Pinrang repeated active mortar disposal evidence."
+  },
+  "detik_bandung_mortar_2025": {
+    "title": "detikJabar, active 81mm mortar found in Ciwidey, Bandung",
+    "url": "https://www.detik.com/jabar/berita/d-7915906/7-fakta-temuan-mortir-dan-granat-di-jabar-yang-bikin-geger",
+    "used_for": "Indonesia Bandung isolated active Dutch-era mortar evidence."
+  },
+  "detik_tanjungpinang_mortar_2025": {
+    "title": "detikSumut, fisherman finds suspected active mortar in Tanjungpinang waters",
+    "url": "https://www.detik.com/sumut/berita/d-8129866/nelayan-tanjungpinang-temukan-mortir-saat-menjaring-ikan",
+    "used_for": "Indonesia Kota Tanjung Pinang marine suspected mortar evidence."
+  },
+  "antara_banjarmasin_mortar_2025": {
+    "title": "ANTARA Kalsel, river diver finds wartime mortar in Banjarmasin",
+    "url": "https://kalsel.antaranews.com/berita/481293/penyelam-sungai-temukan-mortir-peninggalan-perang-dunia-di-banjarmasin",
+    "used_for": "Indonesia Kota Banjarmasin river-found wartime mortar evidence."
+  },
+  "detik_tangsel_mortars_2025": {
+    "title": "detikNews, war-era mortars found in Serpong, South Tangerang",
+    "url": "https://news.detik.com/berita/d-7994208/mortir-peninggalan-perang-gegerkan-warga-tangsel-gegana-turun-tangan",
+    "used_for": "Indonesia Kota Tangerang Selatan scrap-location suspected war-era mortar evidence."
   },
   "antara_jayapura_2025": {
     "title": "ANTARA News, WWII underwater relics discovered in Jayapura waters",
@@ -386,8 +481,8 @@
   },
   "balipost_tabanan_grenade_2023": {
     "title": "BaliPost, suspected active grenade found by student in Denbantas, Tabanan",
-    "url": "https://www.balipost.com/tag/granat-aktif",
-    "used_for": "Bali Tabanan suspected active grenade evidence with source-page caveat."
+    "url": "https://www.balipost.com/news/2023/10/19/368772/Benda-Diduga-Granat-Ditemukan-Pelajar...html",
+    "used_for": "Bali Tabanan suspected active grenade evidence."
   },
   "cambodianess_oddar_cluster_2026": {
     "title": "Cambodianess, three Cambodian power workers injured by cluster munition",
@@ -439,6 +534,21 @@
     "url": "https://www.nationthailand.com/news/general/40062414",
     "used_for": "Thailand Si Sa Ket February 2026 landmine casualty evidence."
   },
+  "guardian_bangkok_bomb_2014": {
+    "title": "The Guardian, Second World War bomb kills seven in Bangkok",
+    "url": "https://www.theguardian.com/world/2014/apr/02/second-world-war-bomb-explodes-bangkok",
+    "used_for": "Thailand Bangkok buried WWII bomb fatal explosion evidence."
+  },
+  "nation_bangkok_bomb_2014": {
+    "title": "The Nation Thailand, Bangkok World War II bomb blast coverage",
+    "url": "https://www.nationthailand.com/in-focus/30235308",
+    "used_for": "Thailand Bangkok WWII bomb construction/scrap incident cross-check."
+  },
+  "nation_thai_border_uxo_2025": {
+    "title": "The Nation Thailand, RTA warns of unexploded bombs after border clashes",
+    "url": "https://www.nationthailand.com/news/general/40053830",
+    "used_for": "Thailand Buri Ram, Si Sa Ket, Ubon Ratchathani, and Surin 2025 RTA-attributed UXO/shelling danger caveat."
+  },
   "nation_buriram_mines_2025": {
     "title": "The Nation Thailand, landmine clearance sites in Surin, Si Sa Ket, and Buri Ram",
     "url": "https://www.nationthailand.com/news/general/40054169",
@@ -448,6 +558,26 @@
     "title": "The Nation Thailand, mines and UXO found near Trat border",
     "url": "https://www.nationthailand.com/news/general/40057487",
     "used_for": "Thailand Trat 2025 AP mine, grenade, RPG, and UXO clearance evidence."
+  },
+  "kpl_khammouane_blu26_2025": {
+    "title": "KPL, five children injured by unexploded BLU-26 in Khammouane",
+    "url": "https://kpl.gov.la/En/detail.aspx?id=95707",
+    "used_for": "Laos Khammouane November 2025 BLU-26 accident evidence."
+  },
+  "ap_oddar_antitank_2025": {
+    "title": "Associated Press, two Cambodian deminers killed removing anti-tank mine",
+    "url": "https://apnews.com/article/c4468881e8805a3106c56f8a2e664d34",
+    "used_for": "Cambodia Oddar Meanchey January 2025 anti-tank mine demining fatality evidence."
+  },
+  "ap_siemreap_rpg_2025": {
+    "title": "Associated Press, RPG kills two toddlers in Siem Reap countryside",
+    "url": "https://apnews.com/article/79aff1b05626f0aa94f6a2460d1f56e3",
+    "used_for": "Cambodia Siem Reap February 2025 RPG/ERW fatality evidence."
+  },
+  "ap_kratie_school_ordnance_2023": {
+    "title": "Associated Press, thousands of unexploded ordnance items found at Kratie school",
+    "url": "https://apnews.com/article/8aa6f62853f7b81a3c45d49c87718f5f",
+    "used_for": "Cambodia Kratie school ERW cache evidence."
   },
   "brigada_iloilo_grenade_bomb_2022": {
     "title": "Brigada News, grenade and vintage bomb recovered in Iloilo",

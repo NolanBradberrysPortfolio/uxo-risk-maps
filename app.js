@@ -165,6 +165,7 @@ function showDetails(p) {
     .map(([key, value]) => `<dt>${escapeHtml(key.replaceAll("_", " "))}</dt><dd>${escapeHtml(String(value))}</dd>`)
     .join("");
   const statusRows = [
+    p.source_shape_name && p.source_shape_name !== p.name ? `<dt>Boundary name</dt><dd>${escapeHtml(p.source_shape_name)}</dd>` : "",
     p.data_as_of ? `<dt>Data as of</dt><dd>${escapeHtml(p.data_as_of)}</dd>` : "",
     p.survey_status ? `<dt>Survey status</dt><dd>${escapeHtml(p.survey_status)}</dd>` : "",
     p.screening_status ? `<dt>Screening</dt><dd>${escapeHtml(p.screening_status)}</dd>` : "",
@@ -193,6 +194,7 @@ function popupHtml(p) {
     .join("");
   const status = [
     `<div class="popup-row"><strong>Confidence:</strong> ${escapeHtml(confidenceText(p))}</div>`,
+    p.source_shape_name && p.source_shape_name !== p.name ? `<div class="popup-row"><strong>Boundary name:</strong> ${escapeHtml(p.source_shape_name)}</div>` : "",
     p.screening_status ? `<div class="popup-row"><strong>Screening:</strong> ${escapeHtml(p.screening_status)}</div>` : "",
     p.survey_status ? `<div class="popup-row"><strong>Survey status:</strong> ${escapeHtml(p.survey_status)}</div>` : "",
     p.data_as_of ? `<div class="popup-row"><strong>Data as of:</strong> ${escapeHtml(p.data_as_of)}</div>` : "",
