@@ -1,0 +1,157 @@
+{
+  "mar_cmr_2025": {
+    "title": "Mine Action Review, Clearing Cluster Munition Remnants 2025",
+    "url": "https://www.mineactionreview.org/assets/downloads/Cluster_Munition_Remnants_2025.pdf",
+    "used_for": "Laos and Cambodia cluster munition contamination estimates; 2025 Cambodia-Thailand cluster munition allegation context."
+  },
+  "mar_mines_2025": {
+    "title": "Mine Action Review, Clearing the Mines 2025",
+    "url": "https://www.mineactionreview.org/assets/downloads/Clearing_the_Mines_2025.pdf",
+    "used_for": "Cambodia AP mine estimates, Thailand AP mine estimates and 2025 incident context, Laos AP mine context."
+  },
+  "undp_lao_swg_2025": {
+    "title": "UNDP Lao PDR, UXO/Mine Action Sector Working Group Meeting in Lao PDR",
+    "url": "https://www.undp.org/laopdr/press-releases/uxo/mine-action-sector-working-group-meeting-lao-pdr",
+    "used_for": "Lao PDR January-June 2025 sector progress and accident province flags."
+  },
+  "thai_surin_aug12_2025": {
+    "title": "Thai MFA statement on August 12, 2025 Surin landmine incident",
+    "url": "https://www.mfa.go.th/en/content/final-statement-on-protest-the-4th-incidence-eng",
+    "used_for": "Thailand Surin August 12, 2025 AP mine incident flag."
+  },
+  "nation_surin_aug27_2025": {
+    "title": "The Nation Thailand, Thai soldier injured by landmine near Ta Kwai Temple",
+    "url": "https://www.nationthailand.com/news/general/40054599",
+    "used_for": "Thailand Surin August 27, 2025 AP mine incident flag."
+  },
+  "odc_cambodia_baseline": {
+    "title": "Open Development Cambodia / CMAA baseline survey on mine and ERW",
+    "url": "https://data.opendevelopmentcambodia.net/dataset/erw",
+    "used_for": "Cambodia baseline survey record counts by province and district; used as a cross-check, not as exact map points."
+  },
+  "fsd_philippines_2024": {
+    "title": "Fondation suisse de deminage, Annual Report 2024",
+    "url": "https://fsd.ch/wp-content/uploads/2025/07/EN-FSD-Annual-REPORT-2024.pdf",
+    "used_for": "Philippines Mindanao/BARMM UXO and mine-risk education evidence."
+  },
+  "monitor_philippines_2022": {
+    "title": "Landmine and Cluster Munition Monitor, Philippines profile",
+    "url": "https://archives2.the-monitor.org/en-gb/reports/2022/philippines/view-all.aspx",
+    "used_for": "Philippines improvised mine, Marawi, Bangsamoro, Maguindanao, and sporadic WWII UXO context."
+  },
+  "psgc_2026": {
+    "title": "Philippine Statistics Authority, PSGC summary",
+    "url": "https://psa.gov.ph/classification/psgc/summary",
+    "used_for": "Philippines current administrative-name cross-check and stale-boundary caveats."
+  },
+  "punto_bataan_bombs_2021": {
+    "title": "Punto Central Luzon, 56 vintage bombs dug up in Bataan",
+    "url": "https://punto.com.ph/56-vintage-bombs-dug-up-in-bataan/",
+    "used_for": "Philippines Bataan confirmed WWII-era ERW find evidence."
+  },
+  "leyte_samar_ormoc_bomb_2014": {
+    "title": "Leyte Samar Daily News, World War II bomb found near Ormoc public school",
+    "url": "https://www.leytesamardailynews.com/world-war-ii-bomb-found-near-ormoc-public-school/",
+    "used_for": "Philippines Leyte confirmed WWII-era UXO report."
+  },
+  "ptv_cavite_vintage_bomb_2018": {
+    "title": "PTV News, beachgoers find vintage bomb along Naic, Cavite shore",
+    "url": "https://ptvnews.ph/beachgoers-find-vintage-bomb-along-naic-cavites-shores/",
+    "used_for": "Philippines Cavite confirmed vintage bomb report."
+  },
+  "bern_mys_lahad_datu_2025": {
+    "title": "Bernama, WWII-era bomb found in Lahad Datu safely neutralised",
+    "url": "https://www.bernama.com/en/region/news.php/news.php?id=2460956",
+    "used_for": "Malaysia Lahad Datu confirmed 2025 WWII UXO find and disposal evidence."
+  },
+  "bern_mys_semporna_2025": {
+    "title": "Bernama, Navy destroys WWII aerial bomb found in Semporna waters",
+    "url": "https://www.bernama.com/en/news.php?id=2381681",
+    "used_for": "Malaysia Semporna confirmed 2025 WWII aerial bomb UXO evidence."
+  },
+  "malaymail_mys_papar_2025": {
+    "title": "Malay Mail, second unexploded WWII bomb discovered at Kinarut construction site",
+    "url": "https://www.malaymail.com/news/malaysia/2025/02/28/second-unexploded-wwii-bomb-discovered-at-kinarut-construction-site-prompting-temporary-area-closures-for-public-safety-say-police/168305",
+    "used_for": "Malaysia Papar/Kinarut confirmed 2025 WWII UXO construction-site evidence."
+  },
+  "bern_mys_kuantan_2025": {
+    "title": "Bernama, unexploded war-time bomb uncovered at housing site in Kuantan",
+    "url": "https://www.bernama.com/en/news.php?id=2440668",
+    "used_for": "Malaysia Kuantan confirmed 2025 WWII aerial bomb construction-site evidence."
+  },
+  "malaymail_mys_menora_2025": {
+    "title": "Malay Mail, mortar bomb near Menora Tunnel sparks expressway closure",
+    "url": "https://www.malaymail.com/amp/news/malaysia/2025/07/01/mortar-bomb-near-menora-tunnel-sparks-15km-jam-north-south-expressway-reopens-after-safe-detonation/182349",
+    "used_for": "Malaysia Menora Tunnel/Kuala Kangsar-Ipoh expressway 2025 UXO mortar evidence."
+  },
+  "sarawaktribune_miri_uxo_2021": {
+    "title": "Sarawak Tribune, food delivery rider finds unexploded WWII bomb in Miri",
+    "url": "https://www.sarawaktribune.com/food-delivery-rider-finds-unexploded-wwii-bomb/",
+    "used_for": "Malaysia Miri confirmed WWII-era UXO find evidence."
+  },
+  "antara_indonesia_2025": {
+    "title": "ANTARA News, WWII grenades found in East Flores, NTT",
+    "url": "https://en.antaranews.com/news/350529/wwii-grenades-found-by-eruption-survivors-in-indonesias-ntt",
+    "used_for": "Indonesia residual WWII UXO find evidence in East Flores/NTT."
+  },
+  "antara_bekasi_mortar_2025": {
+    "title": "ANTARA News, Indonesian police probe fatal Bekasi mortar blast",
+    "url": "https://en.antaranews.com/news/393377/homepage-v2.html",
+    "used_for": "Indonesia Bekasi isolated UXO/mortar incident and Brimob sweep."
+  },
+  "antara_biak_2024": {
+    "title": "ANTARA News, WWII Japanese soldier remains unearthed in Biak Numfor, Papua",
+    "url": "https://en.antaranews.com/news/317226/homepage-v2.html",
+    "used_for": "Indonesia Biak Numfor WWII battlefield/remains evidence."
+  },
+  "rri_biak_uxo_2026": {
+    "title": "RRI, Brimob Biak secured WWII UXO",
+    "url": "https://rri.co.id/biak/regional/2400354/brimob-biak-amankan-granat-tangan-peninggalan-pd-ii",
+    "used_for": "Indonesia Biak Numfor recent WWII UXO handling evidence."
+  },
+  "antara_keerom_2024": {
+    "title": "ANTARA News, WWII plane wreckage found in Keerom, Papua",
+    "url": "https://en.antaranews.com/amp/news/314259/ww-ii-plane-wreckage-found-in-papuas-intipapo-forest",
+    "used_for": "Indonesia Keerom WWII wreckage evidence."
+  },
+  "antara_jayapura_2025": {
+    "title": "ANTARA News, WWII underwater relics discovered in Jayapura waters",
+    "url": "https://en.antaranews.com/news/379169/indonesia-discovers-nine-wwii-underwater-relics-in-papuas-waters",
+    "used_for": "Indonesia Jayapura WWII relic evidence."
+  },
+  "dva_borneo": {
+    "title": "Australian Department of Veterans' Affairs / Australian War Memorial, Borneo campaign pages",
+    "url": "https://www.dva.gov.au/media/media-backgrounders/borneo-oboe-campaign",
+    "used_for": "Indonesia and Malaysia WWII battle and bombardment context around Tarakan, Balikpapan, North Borneo, and Labuan."
+  },
+  "brit_morotai": {
+    "title": "Encyclopaedia Britannica, Morotai",
+    "url": "https://www.britannica.com/place/Morotai-island-Indonesia",
+    "used_for": "Indonesia Morotai WWII base and Allied capture context."
+  },
+  "detik_bali_torpedo_2007": {
+    "title": "detikNews, active torpedo found in Kedonganan/Jimbaran, Bali",
+    "url": "https://news.detik.com/berita/d-780704/torpedo-aktif-ditemukan-di-bali",
+    "used_for": "Bali Badung isolated legacy ordnance evidence."
+  },
+  "coconuts_bali_grenade_2016": {
+    "title": "Coconuts Bali, live grenade and bullets found in Gianyar",
+    "url": "https://coconuts.co/bali/news/whoa-there-gianyar-resident-finds-live-grenade-and-bullets-when-moving/",
+    "used_for": "Bali Gianyar isolated ordnance evidence; likely private storage rather than area contamination."
+  },
+  "pacific_wrecks_denpasar": {
+    "title": "Pacific Wrecks, Denpasar Airfield and American missions against Bali",
+    "url": "https://pacificwrecks.com/airfield/indonesia/denpasar/index.html",
+    "used_for": "Bali Denpasar WWII airfield and attack context."
+  },
+  "methodology": {
+    "title": "Local methodology note",
+    "url": "docs/methodology.md",
+    "used_for": "Scoring rubric and limitations for low/no-evidence administrative areas."
+  },
+  "geoboundaries": {
+    "title": "geoBoundaries open administrative boundaries",
+    "url": "https://www.geoboundaries.org/",
+    "used_for": "Administrative geometry for all mapped countries."
+  }
+}
