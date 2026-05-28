@@ -59,6 +59,31 @@
     "url": "https://ptvnews.ph/beachgoers-find-vintage-bomb-along-naic-cavites-shores/",
     "used_for": "Philippines Cavite confirmed vintage bomb report."
   },
+  "sunstar_cebu_bomb_2025": {
+    "title": "SunStar Cebu, vintage bomb unearthed inside COA 7 compound",
+    "url": "https://www.sunstar.com.ph/cebu/vintage-bomb-unearthed-inside-coa-7-compound",
+    "used_for": "Philippines Cebu 2025 confirmed 1,000-pound vintage GP bomb construction-site evidence."
+  },
+  "gma_cebu_talisay_bomb_2025": {
+    "title": "GMA Regional TV, vintage bomb unearthed in Talisay City, Cebu",
+    "url": "https://www.gmanetwork.com/regionaltv/community/112068/vintage-bomb-unearthed-in-talisay-city-cebu/story/",
+    "used_for": "Philippines Cebu 2025 Talisay City WWII-era UXO report."
+  },
+  "gma_nueva_vizcaya_bomb_2025": {
+    "title": "GMA Regional TV, WWII-era bomb found near farm in Nueva Vizcaya",
+    "url": "https://www.gmanetwork.com/regionaltv/news/108818/wwii-era-bomb-found-near-farm-in-nueva-vizcaya/story/",
+    "used_for": "Philippines Nueva Vizcaya 2025 confirmed large WWII-era UXO report."
+  },
+  "tribune_rizal_antipolo_munitions_2025": {
+    "title": "Daily Tribune, over 1,500 vintage munitions found in Antipolo",
+    "url": "https://tribune.net.ph/amp/story/2025/08/26/over-1500-vintage-munitions-found-in-antipolo",
+    "used_for": "Philippines Rizal/Antipolo 2025 large vintage munition cache evidence."
+  },
+  "gma_manila_upcm_bombs_2025": {
+    "title": "GMA News, WW2 bombs and Japanese grenade unearthed at UP College of Medicine",
+    "url": "https://www.gmanetwork.com/news/topstories/metro/951832/3-vintage-bombs-unearthed-inside-up-college-of-medicine-compound/story/",
+    "used_for": "Philippines Manila 2025 confirmed WWII-era UXO construction-site evidence."
+  },
   "bern_mys_lahad_datu_2025": {
     "title": "Bernama, WWII-era bomb found in Lahad Datu safely neutralised",
     "url": "https://www.bernama.com/en/region/news.php/news.php?id=2460956",
@@ -88,6 +113,31 @@
     "title": "Sarawak Tribune, food delivery rider finds unexploded WWII bomb in Miri",
     "url": "https://www.sarawaktribune.com/food-delivery-rider-finds-unexploded-wwii-bomb/",
     "used_for": "Malaysia Miri confirmed WWII-era UXO find evidence."
+  },
+  "vibes_penang_tanjung_tokong_2025": {
+    "title": "The Vibes, Second World War bomb discovered at Penang construction site",
+    "url": "https://www.thevibes.com/articles/news/108437/second-world-war-bomb-discovered-at-penang-construction-site",
+    "used_for": "Malaysia Timur Laut/Penang confirmed 2025 WWII UXO construction-site evidence."
+  },
+  "star_jasin_bomb_2025": {
+    "title": "The Star, WWII-era bomb weighing over 200kg found near Jasin",
+    "url": "https://www.thestar.com.my/news/nation/2025/07/14/wwii-era-ordnance-weighing-over-200kg-found-near-jasin",
+    "used_for": "Malaysia Jasin confirmed 2025 WWII UXO land-clearing evidence."
+  },
+  "borneopost_kota_belud_bomb_2023": {
+    "title": "Borneo Post, bomb destroyed in Kota Belud",
+    "url": "https://www.theborneopost.com/2023/04/26/bomb-destroyed-in-kota-belud/",
+    "used_for": "Malaysia Kota Belud confirmed WWII-era 500-pound UXO in Pulau Mantanani waters."
+  },
+  "awm_johore_battle": {
+    "title": "Australian War Memorial, Johore battle honour",
+    "url": "https://www.awm.gov.au/collection/E84504",
+    "used_for": "Malaysia Johore campaign fighting around Gemas, Jemaluang, and Muar."
+  },
+  "awm_215_field_regiment": {
+    "title": "Australian War Memorial, 2/15th Field Regiment",
+    "url": "https://www.awm.gov.au/collection/U54405",
+    "used_for": "Malaysia campaign-route artillery evidence in Gemas-Segamat and Muar-Parit Sulong sectors."
   },
   "antara_indonesia_2025": {
     "title": "ANTARA News, WWII grenades found in East Flores, NTT",
@@ -154,10 +204,70 @@
     "url": "https://coconuts.co/bali/news/whoa-there-gianyar-resident-finds-live-grenade-and-bullets-when-moving/",
     "used_for": "Bali Gianyar isolated ordnance evidence; likely private storage rather than area contamination."
   },
+  "koranjuri_buleleng_grenade_2018": {
+    "title": "Koranjuri, grenade found while digging house foundation in Buleleng",
+    "url": "https://koranjuri.com/gali-pondasi-rumah-tukang-bangunan-temukan-granat-nanas/",
+    "used_for": "Bali Buleleng isolated buried hand-grenade evidence."
+  },
+  "detik_jembrana_grenades_2023": {
+    "title": "detikBali, grenade-launcher objects found in Delod Berawah, Jembrana",
+    "url": "https://www.detik.com/bali/berita/d-6586247/dua-granat-lontar-temuan-warga-delod-berawah-dimusnahkan",
+    "used_for": "Bali Jembrana isolated ordnance/ammunition evidence with private-storage caveat."
+  },
   "pacific_wrecks_denpasar": {
     "title": "Pacific Wrecks, Denpasar Airfield and American missions against Bali",
     "url": "https://pacificwrecks.com/airfield/indonesia/denpasar/index.html",
-    "used_for": "Bali Denpasar WWII airfield and attack context."
+    "used_for": "Bali WWII airfield and attack context; assigned to Badung because Ngurah Rai Airport is in Badung Regency."
+  },
+  "bali_airport_badung": {
+    "title": "I Gusti Ngurah Rai International Airport, airport address in Badung",
+    "url": "https://www.bali-airport.com/en/public-transport/index",
+    "used_for": "Bali administrative placement cross-check for Denpasar/Ngurah Rai airfield evidence."
+  },
+  "pacific_wrecks_laha": {
+    "title": "Pacific Wrecks, Laha Airfield on Ambon Island",
+    "url": "https://pacificwrecks.com/airfield/indonesia/laha/index.html",
+    "used_for": "Indonesia Kota Ambon WWII airfield and battle context."
+  },
+  "pacific_wrecks_liang": {
+    "title": "Pacific Wrecks, Liang Airfield on Ambon Island",
+    "url": "https://pacificwrecks.com/airfield/indonesia/liang/index.html",
+    "used_for": "Indonesia Maluku Tengah WWII airfield context."
+  },
+  "dva_fall_ambon": {
+    "title": "Australian Department of Veterans' Affairs, Fall of Ambon",
+    "url": "https://anzacportal.dva.gov.au/wars-and-missions/world-war-ii-1939-1945/events/japanese-advance-december-1941-march-1942/fall-ambon",
+    "used_for": "Indonesia Ambon WWII combat and airfield context."
+  },
+  "cambodianess_oddar_cluster_2026": {
+    "title": "Cambodianess, three Cambodian power workers injured by cluster munition",
+    "url": "https://cambodianess.com/article/three-cambodian-power-workers-injured-by-cluster-munition-left-from-border-clashes",
+    "used_for": "Cambodia Oddar Meanchey 2026 current-conflict cluster munition casualty evidence."
+  },
+  "ppp_preah_vihear_uxo_2026": {
+    "title": "Phnom Penh Post, attaches witness more than 1,200 UXOs at Preah Vihear Temple",
+    "url": "https://www.phnompenhpost.com/national/attach-s-witness-more-than-1-200-uxos-at-preah-vihear-temple",
+    "used_for": "Cambodia Preah Vihear 2026 current-conflict UXO/munition evidence."
+  },
+  "ppp_cmac_border_cmr_2026": {
+    "title": "Phnom Penh Post, CMAC warns of long-term cluster bomb threat along Cambodia-Thailand border",
+    "url": "https://www.phnompenhpost.com/national/cmac-warns-of-long-term-cluster-bomb-threat-along-cambodia-thailand-border",
+    "used_for": "Cambodia 2026 CMAC border cluster-munition survey claim."
+  },
+  "prd_sakaeo_pmn2_2025": {
+    "title": "Thai PRD, Thai forces clear PMN-2 mines after reclaiming Nong Ya Kaeo",
+    "url": "https://thailand.prd.go.th/en/content/category/detail/id/3243/iid/452978",
+    "used_for": "Thailand Sa Kaeo 2025 PMN-2 mine discovery and disposal evidence."
+  },
+  "ap_sakaeo_mine_2025": {
+    "title": "Associated Press, land mine explosion on Cambodia-Thailand border",
+    "url": "https://apnews.com/article/thailand-cambodia-border-land-mines-a37d279cdf80ce9070efab495865cefa",
+    "used_for": "Thailand Sa Kaeo claimed-territory mine incident and active clearance context."
+  },
+  "khaosod_surin_bm21_2026": {
+    "title": "Khaosod English, Thai EOD teams clear remaining BM-21 rockets in Surin",
+    "url": "https://www.khaosodenglish.com/news/2026/05/08/thai-eod-teams-clear-remaining-bm-21-rockets-in-surin/",
+    "used_for": "Thailand Surin 2026 BM-21 rocket UXO clearance evidence."
   },
   "methodology": {
     "title": "Local methodology note",

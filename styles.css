@@ -270,7 +270,8 @@ input {
     font-size: 12px;
     left: 12px;
     max-width: calc(100% - 24px);
-    right: 12px;
+    line-height: 1.35;
+    right: 64px;
     width: auto;
   }
 }

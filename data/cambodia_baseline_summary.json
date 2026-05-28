@@ -1,0 +1,993 @@
+{
+  "Oddar Meanchey": {
+    "records": 1626,
+    "top_districts": [
+      {
+        "district": "Samraong",
+        "records": 479
+      },
+      {
+        "district": "Banteay Ampil",
+        "records": 412
+      },
+      {
+        "district": "Trapeang Prasat",
+        "records": 367
+      },
+      {
+        "district": "Anlong Veaeng",
+        "records": 359
+      },
+      {
+        "district": "Chong Kal",
+        "records": 9
+      }
+    ],
+    "fear_level_counts": {
+      "Medium": 1094,
+      "(blank)": 20,
+      "High": 425,
+      "Low": 87
+    },
+    "land_class_counts": {
+      "A3": 255,
+      "A2": 160,
+      "A4": 786,
+      "A1": 179,
+      "B2": 12,
+      "B1": 8,
+      "B1.3": 61,
+      "B1.4": 3,
+      "A2.1": 18,
+      "A2.2": 143,
+      "B1.5": 1
+    }
+  },
+  "Battambang": {
+    "records": 4052,
+    "top_districts": [
+      {
+        "district": "Bavel",
+        "records": 876
+      },
+      {
+        "district": "Banan",
+        "records": 691
+      },
+      {
+        "district": "Samlout",
+        "records": 687
+      },
+      {
+        "district": "Rotanak Mondol",
+        "records": 527
+      },
+      {
+        "district": "Kamrieng",
+        "records": 318
+      },
+      {
+        "district": "Phnum Proek",
+        "records": 233
+      },
+      {
+        "district": "Koas Krala",
+        "records": 175
+      },
+      {
+        "district": "Sampov Lun",
+        "records": 168
+      }
+    ],
+    "fear_level_counts": {
+      "Medium": 2458,
+      "Low": 174,
+      "(blank)": 20,
+      "High": 1400
+    },
+    "land_class_counts": {
+      "A4": 1801,
+      "A2": 667,
+      "B2": 363,
+      "A1": 86,
+      "A3": 449,
+      "B1": 19,
+      "A2.2": 634,
+      "A2.1": 19,
+      "B1.5": 6,
+      "B1.4": 6,
+      "B1.1": 2
+    }
+  },
+  "Preah Vihear": {
+    "records": 587,
+    "top_districts": [
+      {
+        "district": "Choam Khsant",
+        "records": 370
+      },
+      {
+        "district": "Kuleaen",
+        "records": 55
+      },
+      {
+        "district": "Rovieng",
+        "records": 42
+      },
+      {
+        "district": "Sangkom Thmei",
+        "records": 41
+      },
+      {
+        "district": "Chey Saen",
+        "records": 32
+      },
+      {
+        "district": "Chhaeb",
+        "records": 27
+      },
+      {
+        "district": "Preah Vihear",
+        "records": 12
+      },
+      {
+        "district": "Tbaeng Mean Chey",
+        "records": 8
+      }
+    ],
+    "fear_level_counts": {
+      "Medium": 478,
+      "Low": 37,
+      "(blank)": 10,
+      "High": 62
+    },
+    "land_class_counts": {
+      "A4": 252,
+      "A1": 170,
+      "A2": 63,
+      "A3": 12,
+      "B1": 31,
+      "B2": 5,
+      "B1.2": 53,
+      "B1.3": 1
+    }
+  },
+  "Pailin": {
+    "records": 683,
+    "top_districts": [
+      {
+        "district": "Sala Krau",
+        "records": 477
+      },
+      {
+        "district": "Pailin",
+        "records": 206
+      }
+    ],
+    "fear_level_counts": {
+      "High": 142,
+      "Medium": 457,
+      "(blank)": 12,
+      "Low": 72
+    },
+    "land_class_counts": {
+      "A4": 380,
+      "A2": 98,
+      "B2": 95,
+      "B1": 3,
+      "A3": 51,
+      "A1": 42,
+      "A2.2": 14
+    }
+  },
+  "Pursat": {
+    "records": 394,
+    "top_districts": [
+      {
+        "district": "Veal Veaeng",
+        "records": 273
+      },
+      {
+        "district": "Phnum Kravanh",
+        "records": 89
+      },
+      {
+        "district": "Bakan",
+        "records": 22
+      },
+      {
+        "district": "Krakor",
+        "records": 7
+      },
+      {
+        "district": "Kandieng",
+        "records": 3
+      }
+    ],
+    "fear_level_counts": {
+      "High": 27,
+      "Medium": 350,
+      "Low": 13,
+      "(blank)": 4
+    },
+    "land_class_counts": {
+      "A4": 255,
+      "A1": 51,
+      "B1": 5,
+      "A2": 59,
+      "A3": 4,
+      "B2": 12,
+      "B1.1": 2,
+      "B1.5": 4,
+      "B1.3": 2
+    }
+  },
+  "Siem Reap": {
+    "records": 968,
+    "top_districts": [
+      {
+        "district": "Chi Kraeng",
+        "records": 200
+      },
+      {
+        "district": "Varin",
+        "records": 136
+      },
+      {
+        "district": "Svay Leu",
+        "records": 120
+      },
+      {
+        "district": "Soutr Nikom",
+        "records": 99
+      },
+      {
+        "district": "Prasat Bakong",
+        "records": 93
+      },
+      {
+        "district": "Angkor Chum",
+        "records": 78
+      },
+      {
+        "district": "Angkor Thum",
+        "records": 68
+      },
+      {
+        "district": "Banteay Srei",
+        "records": 47
+      }
+    ],
+    "fear_level_counts": {
+      "Medium": 780,
+      "Low": 36,
+      "High": 134,
+      "(blank)": 18
+    },
+    "land_class_counts": {
+      "A4": 712,
+      "B2": 27,
+      "A2": 67,
+      "B1": 21,
+      "A2.1": 1,
+      "A3": 4,
+      "A1": 2,
+      "B1.4": 10,
+      "B1.3": 20,
+      "B1.2": 1,
+      "B1.5": 19,
+      "A2.2": 84
+    }
+  },
+  "Banteay Meanchey": {
+    "records": 4031,
+    "top_districts": [
+      {
+        "district": "Thma Puok",
+        "records": 1379
+      },
+      {
+        "district": "Malai",
+        "records": 1138
+      },
+      {
+        "district": "Svay Chek",
+        "records": 1081
+      },
+      {
+        "district": "Ou Chrov",
+        "records": 273
+      },
+      {
+        "district": "Paoy Paet",
+        "records": 107
+      },
+      {
+        "district": "Preah Netr Preah",
+        "records": 19
+      },
+      {
+        "district": "Mongkol Bourei",
+        "records": 15
+      },
+      {
+        "district": "Phnum Srok",
+        "records": 10
+      }
+    ],
+    "fear_level_counts": {
+      "Medium": 1015,
+      "High": 2990,
+      "Low": 24,
+      "None": 2
+    },
+    "land_class_counts": {
+      "B2": 70,
+      "A4": 1293,
+      "A1": 398,
+      "A2": 3,
+      "A3": 238,
+      "B1": 26,
+      "A2.2": 1879,
+      "A2.1": 124
+    }
+  },
+  "Kampong Thom": {
+    "records": 1052,
+    "top_districts": [
+      {
+        "district": "Prasat Balangk",
+        "records": 237
+      },
+      {
+        "district": "Kampong Svay",
+        "records": 225
+      },
+      {
+        "district": "Stoung",
+        "records": 207
+      },
+      {
+        "district": "Sandan",
+        "records": 150
+      },
+      {
+        "district": "Santuk",
+        "records": 106
+      },
+      {
+        "district": "Prasat Sambour",
+        "records": 64
+      },
+      {
+        "district": "Baray",
+        "records": 47
+      },
+      {
+        "district": "Stueng Saen",
+        "records": 16
+      }
+    ],
+    "fear_level_counts": {
+      "Low": 69,
+      "Medium": 824,
+      "High": 157,
+      "None": 1,
+      "(blank)": 1
+    },
+    "land_class_counts": {
+      "B1": 57,
+      "A4": 492,
+      "A2": 18,
+      "B2": 82,
+      "A3": 6,
+      "B1.2": 311,
+      "B1.4": 41,
+      "A2.2": 35,
+      "B1.1": 2,
+      "B1.5": 8
+    }
+  },
+  "Kratie": {
+    "records": 624,
+    "top_districts": [
+      {
+        "district": "Snuol",
+        "records": 448
+      },
+      {
+        "district": "Sambour",
+        "records": 82
+      },
+      {
+        "district": "Chetr Borei",
+        "records": 49
+      },
+      {
+        "district": "Preaek Prasab",
+        "records": 22
+      },
+      {
+        "district": "Chhloung",
+        "records": 20
+      },
+      {
+        "district": "Kracheh",
+        "records": 3
+      }
+    ],
+    "fear_level_counts": {
+      "Medium": 427,
+      "Low": 41,
+      "(blank)": 10,
+      "High": 146
+    },
+    "land_class_counts": {
+      "B1.4": 23,
+      "B1.1": 15,
+      "B1.2": 227,
+      "A4": 65,
+      "B1.5": 44,
+      "B1.3": 29,
+      "A3": 181,
+      "A2.2": 37,
+      "B2": 3
+    }
+  },
+  "Kampong Chhnang": {
+    "records": 86,
+    "top_districts": [
+      {
+        "district": "Tuek Phos",
+        "records": 42
+      },
+      {
+        "district": "Sameakki Mean Chey",
+        "records": 25
+      },
+      {
+        "district": "Chol Kiri",
+        "records": 8
+      },
+      {
+        "district": "Kampong Leaeng",
+        "records": 6
+      },
+      {
+        "district": "Baribour",
+        "records": 5
+      }
+    ],
+    "fear_level_counts": {
+      "Low": 14,
+      "Medium": 70,
+      "High": 1,
+      "(blank)": 1
+    },
+    "land_class_counts": {
+      "A4": 49,
+      "B1.5": 9,
+      "B1.2": 15,
+      "B1.1": 8,
+      "A1": 2,
+      "B2": 1,
+      "B1.4": 1,
+      "B1.3": 1
+    }
+  },
+  "Phnom Penh": {
+    "records": 60,
+    "top_districts": [
+      {
+        "district": "Por Sencheay",
+        "records": 36
+      },
+      {
+        "district": "Ruessei Kaev",
+        "records": 19
+      },
+      {
+        "district": "Saen Sokh",
+        "records": 5
+      }
+    ],
+    "fear_level_counts": {
+      "Low": 15,
+      "Medium": 43,
+      "High": 2
+    },
+    "land_class_counts": {
+      "A3": 4,
+      "A4": 4,
+      "A2.2": 4,
+      "B2": 5,
+      "B1.5": 14,
+      "B1.2": 19,
+      "B1.1": 1,
+      "B1.3": 8,
+      "B1.4": 1
+    }
+  },
+  "Kampong Cham": {
+    "records": 589,
+    "top_districts": [
+      {
+        "district": "Memot",
+        "records": 413
+      },
+      {
+        "district": "Dambae",
+        "records": 42
+      },
+      {
+        "district": "Ponhea Kraek",
+        "records": 33
+      },
+      {
+        "district": "Chamkar Leu",
+        "records": 22
+      },
+      {
+        "district": "Kampong Siem",
+        "records": 13
+      },
+      {
+        "district": "Tboung Khmum",
+        "records": 11
+      },
+      {
+        "district": "Stueng Trang",
+        "records": 11
+      },
+      {
+        "district": "Prey Chhor",
+        "records": 10
+      }
+    ],
+    "fear_level_counts": {
+      "Medium": 252,
+      "(blank)": 10,
+      "High": 290,
+      "Low": 37
+    },
+    "land_class_counts": {
+      "B1.2": 149,
+      "B1.1": 26,
+      "B1.5": 70,
+      "B1.3": 44,
+      "A4": 12,
+      "B1.4": 28,
+      "A2.2": 10,
+      "B2": 4,
+      "A3": 246
+    }
+  },
+  "Kampong Speu": {
+    "records": 552,
+    "top_districts": [
+      {
+        "district": "Phnum Sruoch",
+        "records": 320
+      },
+      {
+        "district": "Basedth",
+        "records": 82
+      },
+      {
+        "district": "Thpong",
+        "records": 36
+      },
+      {
+        "district": "Kong Pisei",
+        "records": 36
+      },
+      {
+        "district": "Samraong Tong",
+        "records": 35
+      },
+      {
+        "district": "Odongk",
+        "records": 25
+      },
+      {
+        "district": "Aoral",
+        "records": 18
+      }
+    ],
+    "fear_level_counts": {
+      "Low": 57,
+      "Medium": 410,
+      "High": 78,
+      "(blank)": 7
+    },
+    "land_class_counts": {
+      "B1.5": 41,
+      "B1.4": 12,
+      "B1.2": 85,
+      "B2": 13,
+      "A4": 389,
+      "A1": 4,
+      "A2.2": 3,
+      "B1.3": 3,
+      "A3": 2
+    }
+  },
+  "Svay Rieng": {
+    "records": 198,
+    "top_districts": [
+      {
+        "district": "Svay Teab",
+        "records": 100
+      },
+      {
+        "district": "Kampong Rou",
+        "records": 53
+      },
+      {
+        "district": "Romeas Haek",
+        "records": 29
+      },
+      {
+        "district": "Rumduol",
+        "records": 9
+      },
+      {
+        "district": "Svay Chrum",
+        "records": 6
+      },
+      {
+        "district": "Chantrea",
+        "records": 1
+      }
+    ],
+    "fear_level_counts": {
+      "(blank)": 18,
+      "Low": 5,
+      "High": 119,
+      "Medium": 56
+    },
+    "land_class_counts": {
+      "B1.1": 20,
+      "B1.4": 2,
+      "B1.5": 12,
+      "B1.2": 17,
+      "B1.3": 19,
+      "A3": 36,
+      "A2.2": 83,
+      "A4": 9
+    }
+  },
+  "Prey Veng": {
+    "records": 24,
+    "top_districts": [
+      {
+        "district": "Peam Ro",
+        "records": 9
+      },
+      {
+        "district": "Ba Phnum",
+        "records": 7
+      },
+      {
+        "district": "Prey Veaeng",
+        "records": 5
+      },
+      {
+        "district": "Kampong Leav",
+        "records": 3
+      }
+    ],
+    "fear_level_counts": {
+      "None": 9,
+      "Medium": 12,
+      "(blank)": 3
+    },
+    "land_class_counts": {
+      "B1.3": 19,
+      "B1.1": 4,
+      "B1.2": 1
+    }
+  },
+  "Kandal": {
+    "records": 98,
+    "top_districts": [
+      {
+        "district": "Angk Snuol",
+        "records": 55
+      },
+      {
+        "district": "Ponhea Lueu",
+        "records": 16
+      },
+      {
+        "district": "Khsach Kandal",
+        "records": 14
+      },
+      {
+        "district": "Leuk Daek",
+        "records": 11
+      },
+      {
+        "district": "Kaoh Thum",
+        "records": 2
+      }
+    ],
+    "fear_level_counts": {
+      "None": 10,
+      "Low": 12,
+      "Medium": 65,
+      "High": 11
+    },
+    "land_class_counts": {
+      "B1.3": 19,
+      "B1.5": 26,
+      "A3": 1,
+      "A4": 1,
+      "B1.2": 43,
+      "B1.4": 6,
+      "A2.2": 1,
+      "A1": 1
+    }
+  },
+  "Kampot": {
+    "records": 151,
+    "top_districts": [
+      {
+        "district": "Chum Kiri",
+        "records": 39
+      },
+      {
+        "district": "Chhuk",
+        "records": 35
+      },
+      {
+        "district": "Banteay Meas",
+        "records": 17
+      },
+      {
+        "district": "Angkor Chey",
+        "records": 17
+      },
+      {
+        "district": "Kampong Trach",
+        "records": 17
+      },
+      {
+        "district": "Tuek Chhu",
+        "records": 13
+      },
+      {
+        "district": "Dang Tong",
+        "records": 12
+      },
+      {
+        "district": "Kampot",
+        "records": 1
+      }
+    ],
+    "fear_level_counts": {
+      "Low": 10,
+      "Medium": 138,
+      "High": 3
+    },
+    "land_class_counts": {
+      "B1.3": 1,
+      "B2": 7,
+      "A4": 129,
+      "B1.5": 8,
+      "A1": 1,
+      "A3": 2,
+      "B1.2": 2,
+      "B1.4": 1
+    }
+  },
+  "Takeo": {
+    "records": 53,
+    "top_districts": [
+      {
+        "district": "Tram Kak",
+        "records": 52
+      },
+      {
+        "district": "Kaoh Andaet",
+        "records": 1
+      }
+    ],
+    "fear_level_counts": {
+      "Low": 3,
+      "Medium": 50
+    },
+    "land_class_counts": {
+      "B1.3": 1,
+      "B1.4": 4,
+      "B1.2": 4,
+      "A4": 39,
+      "B2": 1,
+      "B1.5": 1,
+      "A2.2": 2,
+      "B1.1": 1
+    }
+  },
+  "Kep": {
+    "records": 6,
+    "top_districts": [
+      {
+        "district": "Damnak Chang'aeur",
+        "records": 5
+      },
+      {
+        "district": "Kaeb",
+        "records": 1
+      }
+    ],
+    "fear_level_counts": {
+      "Medium": 5,
+      "Low": 1
+    },
+    "land_class_counts": {
+      "A4": 6
+    }
+  },
+  "Mondul Kiri": {
+    "records": 97,
+    "top_districts": [
+      {
+        "district": "Kaoh Nheaek",
+        "records": 71
+      },
+      {
+        "district": "Pechreada",
+        "records": 25
+      },
+      {
+        "district": "Kaev Seima",
+        "records": 1
+      }
+    ],
+    "fear_level_counts": {
+      "Medium": 94,
+      "High": 1,
+      "(blank)": 2
+    },
+    "land_class_counts": {
+      "B1.2": 23,
+      "B1.1": 9,
+      "A4": 22,
+      "A2.2": 24,
+      "B1.4": 1,
+      "A3": 6,
+      "B1.3": 9,
+      "B1.5": 3
+    }
+  },
+  "Stung Treng": {
+    "records": 51,
+    "top_districts": [
+      {
+        "district": "Siem Pang",
+        "records": 22
+      },
+      {
+        "district": "Thala Barivat",
+        "records": 18
+      },
+      {
+        "district": "Siem Bouk",
+        "records": 6
+      },
+      {
+        "district": "Sesan",
+        "records": 5
+      }
+    ],
+    "fear_level_counts": {
+      "Medium": 46,
+      "(blank)": 1,
+      "Low": 4
+    },
+    "land_class_counts": {
+      "B1.2": 44,
+      "B1.1": 5,
+      "B1.3": 2
+    }
+  },
+  "Koh Kong": {
+    "records": 133,
+    "top_districts": [
+      {
+        "district": "Kaoh Kong",
+        "records": 37
+      },
+      {
+        "district": "Botum Sakor",
+        "records": 36
+      },
+      {
+        "district": "Thma Bang",
+        "records": 24
+      },
+      {
+        "district": "Mondol Seima",
+        "records": 18
+      },
+      {
+        "district": "Kiri Sakor",
+        "records": 15
+      },
+      {
+        "district": "Srae Ambel",
+        "records": 3
+      }
+    ],
+    "fear_level_counts": {
+      "Medium": 117,
+      "High": 16
+    },
+    "land_class_counts": {
+      "A4": 103,
+      "B1.4": 4,
+      "B1.5": 21,
+      "B2": 3,
+      "A1": 2
+    }
+  },
+  "Preah Sihanouk": {
+    "records": 48,
+    "top_districts": [
+      {
+        "district": "Kampong Seila",
+        "records": 45
+      },
+      {
+        "district": "Prey Nob",
+        "records": 3
+      }
+    ],
+    "fear_level_counts": {
+      "Medium": 46,
+      "Low": 1,
+      "High": 1
+    },
+    "land_class_counts": {
+      "B1.5": 8,
+      "A4": 20,
+      "B1.2": 14,
+      "A3": 1,
+      "B2": 2,
+      "B1.1": 3
+    }
+  },
+  "Ratanak Kiri": {
+    "records": 61,
+    "top_districts": [
+      {
+        "district": "Banlung",
+        "records": 24
+      },
+      {
+        "district": "Kon Mom",
+        "records": 17
+      },
+      {
+        "district": "Ou Chum",
+        "records": 11
+      },
+      {
+        "district": "Ou Ya Dav",
+        "records": 8
+      },
+      {
+        "district": "Ouchum",
+        "records": 1
+      }
+    ],
+    "fear_level_counts": {
+      "Medium": 61
+    },
+    "land_class_counts": {
+      "B1.4": 3,
+      "B1.1": 3,
+      "B1.2": 55
+    }
+  }
+}

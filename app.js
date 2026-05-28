@@ -1,3 +1,12 @@
+const RISK_BANDS = [
+  "very likely",
+  "likely",
+  "elevated",
+  "possible",
+  "low residual",
+  "screened very low",
+];
+
 const COLORS = {
   "very likely": "#7d1717",
   "likely": "#d65337",
@@ -5,6 +14,7 @@ const COLORS = {
   "possible": "#f1cf63",
   "low residual": "#a7c8a1",
   "screened very low": "#b9b4dc",
+  unknown: "#111827",
 };
 
 const BOUNDS = {
@@ -31,14 +41,14 @@ L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
 }).addTo(map);
 
 function styleFeature(feature) {
-  const band = feature.properties.risk_band;
+  const band = normalizedBand(feature);
   const evidence = feature.properties.evidence || "";
   const lowConfidence = feature.properties.confidence === "low" || feature.properties.confidence === "lower";
   const fillOpacity = lowConfidence ? 0.48 : evidence.startsWith("D") ? 0.7 : 0.72;
   return {
     color: lowConfidence ? "#6a736d" : "#33413a",
     dashArray: lowConfidence ? "2 4" : evidence.startsWith("C") || evidence.startsWith("D") ? "4 3" : "",
-    fillColor: COLORS[band] || COLORS["screened very low"],
+    fillColor: COLORS[band],
     fillOpacity,
     opacity: 0.72,
     weight: lowConfidence ? 0.9 : 0.7,
@@ -70,10 +80,12 @@ function filteredFeatures() {
 
 function visibleRatedCounts() {
   const visible = filteredFeatures().features;
+  const invalid = visible.filter((feature) => normalizedBand(feature) === "unknown").length;
   return {
     total: visible.length,
     screened: visible.filter((feature) => feature.properties.risk_band === "screened very low").length,
-    unrated: visible.filter((feature) => !feature.properties.risk_band).length,
+    unrated: invalid,
+    rated: visible.length - invalid,
   };
 }
 
@@ -106,7 +118,7 @@ function renderLayer() {
     style: styleFeature,
     onEachFeature: (feature, layer) => {
       const p = feature.properties;
-      const tip = `${p.name}: ${p.risk_band} | ${shortEvidence(p.evidence)} | confidence ${confidenceText(p)}`;
+      const tip = `${p.name}: ${displayBand(p)} | ${shortEvidence(p.evidence)} | confidence ${confidenceText(p)}`;
       layer.bindTooltip(tip, { sticky: true });
       layer.on("click", () => {
         if (selectedLayer) {
@@ -147,7 +159,7 @@ function showDetails(p) {
   document.getElementById("details").innerHTML = `
     <h2>${escapeHtml(p.name)}</h2>
     <dl>
-      <dt>Risk</dt><dd>${p.risk_score}/100, ${escapeHtml(p.risk_band)}</dd>
+      <dt>Risk</dt><dd>${p.risk_score}/100, ${escapeHtml(displayBand(p))}</dd>
       <dt>Evidence</dt><dd>${escapeHtml(p.evidence)}</dd>
       <dt>Types</dt><dd>${escapeHtml(p.contamination_types.join(", "))}</dd>
       <dt>Notes</dt><dd>${escapeHtml(p.notes)}</dd>
@@ -173,7 +185,7 @@ function popupHtml(p) {
   return `
     <div class="popup-title">${escapeHtml(p.name)}</div>
     <div class="popup-row"><strong>Country:</strong> ${escapeHtml(p.country)}</div>
-    <div class="popup-row"><strong>Risk:</strong> ${p.risk_score}/100, ${escapeHtml(p.risk_band)}</div>
+    <div class="popup-row"><strong>Risk:</strong> ${p.risk_score}/100, ${escapeHtml(displayBand(p))}</div>
     <div class="popup-row"><strong>Evidence:</strong> ${escapeHtml(p.evidence)}</div>
     ${status}
     ${metrics}
@@ -186,7 +198,16 @@ function popupHtml(p) {
 function updateCoverage() {
   const counts = visibleRatedCounts();
   document.getElementById("coverage").textContent =
-    `${counts.total}/${counts.total} visible areas rated | ${counts.unrated} unrated | ${counts.screened} screened very low`;
+    `${counts.rated}/${counts.total} visible areas rated | ${counts.unrated} unrated/invalid | ${counts.screened} screened very low`;
+}
+
+function normalizedBand(feature) {
+  const band = feature.properties?.risk_band;
+  return RISK_BANDS.includes(band) ? band : "unknown";
+}
+
+function displayBand(p) {
+  return RISK_BANDS.includes(p.risk_band) ? p.risk_band : `invalid (${p.risk_band || "missing"})`;
 }
 
 function screeningBasisHtml(basis) {
