@@ -93,3 +93,15 @@ Cycle status key:
 - `fixed` Cambodia Oddar Meanchey, Siem Reap, and Kratie: added 2025 anti-tank mine deminer fatalities, 2025 RPG child fatalities, and Kratie school ERW cache evidence.
 - `fixed` Cambodia baseline date ranges: impossible ODC/CMAA survey-date outliers, including an Oddar Meanchey 1913 row, are excluded from displayed min/max dates and counted in the baseline summary.
 - `fixed` Boundary traceability: every generated feature now carries `source_shape_name`, and generation fails if it is missing.
+
+### Cycle 5 - Agents Halley/Bacon/Wegener/Planck
+
+- `fixed` Thailand Ubon Ratchathani: likely score was over-supported by disputed 2025 new-emplacement allegations plus only 0.587 km2 AP area. Downgraded to `elevated` while retaining the caveated current note.
+- `fixed` Indonesia Kota Tarakan and Pulau Morotai: possible scores relied only on generic WWII campaign/base history without direct UXO/EOD reports. Downgraded to high `low residual` with explicit no-direct-report caveats.
+- `fixed` Philippines Lanao del Norte, Zamboanga del Sur, Samar, Eastern Samar, and Northern Samar: possible scores relied on adjacency or national/general conflict context rather than retained province-specific evidence. Downgraded to `low residual`.
+- `fixed` Philippines Tarlac, Camarines Norte, Bukidnon, South Cotabato, Surigao del Norte, Agusan del Norte, Sultan Kudarat, and Oriental Mindoro: screened-low missed public vintage bomb/UXO reports or Monitor-cited evidence. Raised to `low residual` or `possible` with caveats.
+- `fixed` Indonesia Cirebon, Kota Bandung, Malang, Langkat, Bandung Barat, Pasuruan, Bogor, Gowa, Ciamis, Garut, Ponorogo, Labuhan Batu, Maros, Enrekang, Dompu, and Bali/Bangli: screened-low missed public mortar, landmine, or grouped UXO reports. Raised to `low residual` or `possible`.
+- `fixed` Malaysia Kota Tinggi, Johor Bahru, Kulaijaya/Kulai, Besut, Kuala Pilah, Seremban, Rembau, and Jelebu: screened-low missed district UXO reports or aggregate district counts. Raised to `low residual` or `possible`.
+- `fixed` Malaysia Kulaijaya and Ledang stale names: displays now read `Kulai (formerly Kulaijaya)` and `Tangkak (formerly Ledang)` while preserving the source boundary names.
+- `fixed` Philippines/Indonesia/Malaysia data currency: all ADM2 rule-based features now carry a `data_as_of` review cutoff through 2026-05-28.
+- `reviewed` Philippines Albay source brittleness: direct PNA URL remains retained because search and current retrieval expose the article text; no replacement source was added this cycle.

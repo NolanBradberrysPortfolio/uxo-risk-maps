@@ -579,6 +579,166 @@
     "url": "https://apnews.com/article/8aa6f62853f7b81a3c45d49c87718f5f",
     "used_for": "Cambodia Kratie school ERW cache evidence."
   },
+  "tribune_tarlac_bombs_2025": {
+    "title": "Daily Tribune, 250 bombs unearthed in Tarlac",
+    "url": "https://tribune.net.ph/2025/04/05/250-bombs-unearthed-in-tarlac",
+    "used_for": "Philippines Tarlac grouped active/dangerous WWII-era bomb evidence."
+  },
+  "gma_camarines_norte_bombs_2024": {
+    "title": "GMA Regional TV, another vintage bomb found in Daet, Camarines Norte",
+    "url": "https://www.gmanetwork.com/regionaltv/news/103161/another-vintage-bomb-found-in-daet-camarines-norte/story/",
+    "used_for": "Philippines Camarines Norte repeated Daet vintage bomb evidence."
+  },
+  "mindanews_bukidnon_blast_2006": {
+    "title": "MindaNews, vintage bomb explosion kills two in Valencia, Bukidnon",
+    "url": "https://mindanews.com/c3-news/2006/08/2-killed-6-hurt-as-vintage-bomb-explodes-in-valencia-junk-shop/",
+    "used_for": "Philippines Bukidnon fatal vintage bomb blast and repeated UXO evidence with scrap-origin caveat."
+  },
+  "mindanews_south_cotabato_bomb_2012": {
+    "title": "MindaNews, WWII bomb found in Polomolok village",
+    "url": "https://mindanews.com/top-stories/2012/08/m01bomb-wwii-bomb-found-in-polomolok-village/",
+    "used_for": "Philippines South Cotabato still-active WWII-type bomb and repeated local vintage bomb evidence."
+  },
+  "mindanews_surigao_bomb_2017": {
+    "title": "MindaNews, WWII vintage bomb found in Surigao City",
+    "url": "https://mindanews.com/top-stories/2017/01/wwii-vintage-bomb-found-in-surigao-city/",
+    "used_for": "Philippines Surigao del Norte construction-site WWII vintage bomb evidence."
+  },
+  "goldstar_agusan_shell_2013": {
+    "title": "Mindanao Gold Star Daily, WWII ammunition used as church bell in Magallanes",
+    "url": "https://mindanaogoldstardaily.com/archives/28748",
+    "used_for": "Philippines Agusan del Norte WWII 155mm ammunition/EOD evidence."
+  },
+  "rpn_sultan_kudarat_uxo_2021": {
+    "title": "RPN / PNA, unexploded ordnance unearthed in Sultan Kudarat",
+    "url": "https://rpnradio.com/unexploded-ordinance-unearthed-in-sultan-kudarat/",
+    "used_for": "Philippines Sultan Kudarat 105mm howitzer UXO recovery evidence."
+  },
+  "monitor_philippines_2019_mindoro": {
+    "title": "Landmine and Cluster Munition Monitor, Philippines 2019 profile",
+    "url": "https://archives2.the-monitor.org/en-gb/reports/2019/philippines/view-all.aspx",
+    "used_for": "Philippines Oriental Mindoro Monitor-cited Calapan vintage bomb report where primary article was not retained."
+  },
+  "detik_cirebon_mortars_2020": {
+    "title": "detikNews, hundreds of mortars at Cirebon cement mining area destroyed",
+    "url": "https://news.detik.com/berita-jawa-barat/d-4991948/ratusan-mortir-yang-menumpuk-di-area-tambang-semen-cirebon-dimusnahkan",
+    "used_for": "Indonesia Cirebon grouped suspected Japanese-era mortar evidence."
+  },
+  "antara_kota_bandung_mortars_2019": {
+    "title": "ANTARA, Dago mortars suspected World War II remnants",
+    "url": "https://www.antaranews.com/berita/805936/dandim-mortir-di-dago-diduga-peninggalan-perang-dunia-kedua",
+    "used_for": "Indonesia Kota Bandung grouped Dago mortar evidence."
+  },
+  "antara_malang_air_bomb_2024": {
+    "title": "ANTARA Jatim, police destroy active wartime bomb found in Malang",
+    "url": "https://jatim.antaranews.com/berita/801216/polisi-musnahkan-bom-aktif-sisa-perang-dunia-temuan-warga-di-malang",
+    "used_for": "Indonesia Malang active aircraft-bomb disposal evidence."
+  },
+  "detik_malang_mortars_2024": {
+    "title": "detikJatim, nine suspected WWII mortars found in Pujon, Malang",
+    "url": "https://www.detik.com/jatim/berita/d-7328465/9-mortir-diduga-sisa-perang-dunia-ii-ditemukan-di-pujon-malang",
+    "used_for": "Indonesia Malang repeated mortar evidence."
+  },
+  "medanbisnis_langkat_mortars_2025": {
+    "title": "MedanBisnisDaily, 20 active WWII mortars found in Langkat plantation",
+    "url": "https://medanbisnisdaily.com/news/online/read/2025/06/27/190702/20_bom_mortir_aktif_sisa_perang_dunia_ii_ditemukan_di_areal_perkebunan_pt_lnk_langkat/",
+    "used_for": "Indonesia Langkat grouped active WWII mortar evidence."
+  },
+  "detik_langkat_landmine_2026": {
+    "title": "detikSumut, suspected wartime landmine found in Langkat",
+    "url": "https://www.detik.com/sumut/berita/d-8471556/penemuan-ranjau-darat-diduga-peninggalan-perang-bikin-geger-warga-langkat",
+    "used_for": "Indonesia Langkat suspected wartime landmine evidence."
+  },
+  "detik_bandung_barat_mortar_2025": {
+    "title": "detikJabar, mortar found in Batujajar, Bandung Barat",
+    "url": "https://www.detik.com/jabar/berita/d-8266106/geger-temuan-mortir-di-kebun-warga-kbb-diduga-sisa-masa-penjajahan",
+    "used_for": "Indonesia Bandung Barat suspected wartime mortar disposal evidence."
+  },
+  "detik_pasuruan_mortars_mines_2024": {
+    "title": "detikJatim, mortars and mines destroyed after construction find in Pasuruan",
+    "url": "https://www.detik.com/jatim/berita/d-7481987/4-mortir-ranjau-diledakkan-setelah-ditemukan-tukang-bangunan-pasuruan",
+    "used_for": "Indonesia Pasuruan grouped mortar and landmine evidence."
+  },
+  "detik_bogor_landmine_2023": {
+    "title": "detikNews, active landmine found in Cileungsi, Bogor",
+    "url": "https://news.detik.com/berita/d-6802460/warga-bogor-temukan-ranjau-darat-aktif-saat-sedang-tanam-pohon-pisang",
+    "used_for": "Indonesia Bogor active landmine disposal evidence."
+  },
+  "sindonews_gowa_mortar_2020": {
+    "title": "Sindonews, farmer in Gowa finds active mortar and projectiles",
+    "url": "https://daerah.sindonews.com/read/166468/713/petani-gowa-temukan-mortir-aktif-dan-proyektil-di-desa-nirannuang-1600243768",
+    "used_for": "Indonesia Gowa active mortar/projectile evidence."
+  },
+  "detik_ciamis_mortars_2020": {
+    "title": "detikNews, Ciamis residents find three mortars while digging",
+    "url": "https://news.detik.com/berita-jawa-barat/d-5062275/warga-ciamis-temukan-3-mortir-saat-menggali-di-kebun-pisang",
+    "used_for": "Indonesia Ciamis grouped mortar evidence."
+  },
+  "pikiran_garut_mortar_2026": {
+    "title": "Pikiran Rakyat Garut, Brimob destroys active mortar found in Pameungpeuk",
+    "url": "https://garut.pikiran-rakyat.com/garut/pr-529629484/unit-jibom-sat-brimob-polda-jabar-musnahkan-mortir-aktif-temuan-warga-di-pameungpeuk-garut",
+    "used_for": "Indonesia Garut active mortar disposal evidence."
+  },
+  "detik_ponorogo_mortar_2026": {
+    "title": "detikJatim, Ponorogo mortar destroyed by Gegana",
+    "url": "https://www.detik.com/jatim/berita/d-8392249/mortir-temuan-warga-ponorogo-dimusnahkan-tim-gegana-di-hutan-badegan",
+    "used_for": "Indonesia Ponorogo active-component mortar disposal evidence."
+  },
+  "detik_labuhanbatu_mortar_2026": {
+    "title": "detikSumut, Gegana detonates mortar found by brickmaker in Labuhanbatu",
+    "url": "https://www.detik.com/sumut/berita/d-8432073/gegana-ledakkan-bom-mortir-temuan-perajin-batu-bata-di-labuhanbatu",
+    "used_for": "Indonesia Labuhan Batu mortar disposal evidence."
+  },
+  "detik_maros_mortar_2025": {
+    "title": "detikSulsel, active mortar found in Maros soil excavation",
+    "url": "https://www.detik.com/sulsel/berita/d-7949509/penampakan-mortir-aktif-dan-karatan-ditemukan-di-galian-tanah-maros",
+    "used_for": "Indonesia Maros active mortar disposal evidence."
+  },
+  "detik_enrekang_mortar_2025": {
+    "title": "detikSulsel, mortar found in Enrekang onion field",
+    "url": "https://www.detik.com/sulsel/berita/d-8039008/warga-enrekang-temukan-mortir-di-kebun-bawang-diduga-peninggalan-perang-dunia",
+    "used_for": "Indonesia Enrekang mortar disposal evidence."
+  },
+  "detik_dompu_mortar_2018": {
+    "title": "detikNews, active mortar found in Dompu, NTB",
+    "url": "https://news.detik.com/berita/d-4227722/warga-ntb-temukan-mortir-diduga-sisa-perang-dunia",
+    "used_for": "Indonesia Dompu active suspected wartime mortar evidence."
+  },
+  "times_bangli_mortar_2017": {
+    "title": "TIMES Indonesia, resident in Bangli finds active mortar",
+    "url": "https://timesindonesia.co.id/peristiwa-daerah/141047/warga-bangli-temukan-mortir-aktif",
+    "used_for": "Bali Bangli active mortar evidence with military-training-origin caveat."
+  },
+  "kosmo_kota_tinggi_uxo_2021": {
+    "title": "Kosmo, 27 old UXO items destroyed in Kota Tinggi",
+    "url": "https://www.kosmo.com.my/2021/05/05/27-butir-bom-lama-berjaya-dimusnahkan/",
+    "used_for": "Malaysia Kota Tinggi grouped old UXO destruction evidence."
+  },
+  "kosmo_johor_bahru_shells_2021": {
+    "title": "Kosmo, wartime bombs found in Ulu Tiram oil-palm plantation",
+    "url": "https://www.kosmo.com.my/2021/09/04/bom-zaman-perang-ditemui-dalam-ladang-sawit/",
+    "used_for": "Malaysia Johor Bahru old artillery shell evidence."
+  },
+  "star_kulaijaya_kulai_2015": {
+    "title": "The Star, Kulaijaya district reverted to Kulai",
+    "url": "https://www.thestar.com.my/news/nation/2015/08/28/johor-sultan-revert-name-of-kulaijaya",
+    "used_for": "Malaysia Kulai/Kulaijaya administrative-name caveat."
+  },
+  "kosmo_kulai_shell_2021": {
+    "title": "Kosmo, wartime bomb found at Felda Taib Andak, Kulai",
+    "url": "https://www.kosmo.com.my/2021/04/05/ingatkan-besi-buruk-rupanya-bom-zaman-perang/",
+    "used_for": "Malaysia Kulai/Kulaijaya old artillery shell and suspected UXO evidence."
+  },
+  "astro_besut_mortars_2023": {
+    "title": "Astro Awani, bulldozer driver finds two old bombs in Besut",
+    "url": "https://www.astroawani.com/berita-malaysia/pemandu-jentolak-jumpa-bom-420870",
+    "used_for": "Malaysia Besut old 60mm mortar UXO evidence."
+  },
+  "malaymail_ledang_tangkak_2015": {
+    "title": "Malay Mail, Ledang district name changed to Tangkak",
+    "url": "https://www.malaymail.com/news/malaysia/2015/12/07/johor-state-secretary-announces-name-change-from-nusajaya-to-iskandar-puter/1019049",
+    "used_for": "Malaysia Tangkak/Ledang administrative-name caveat."
+  },
   "brigada_iloilo_grenade_bomb_2022": {
     "title": "Brigada News, grenade and vintage bomb recovered in Iloilo",
     "url": "https://www.brigadanews.ph/sangka-granada-ag-vintage-bomb-narekober-sa-iloilo/",
